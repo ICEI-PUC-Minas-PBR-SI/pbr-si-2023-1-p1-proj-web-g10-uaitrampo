@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10399381&assignment_repo_type=AssignmentRepo)
-# Título do Projeto
+# uaiTrampo
 
 `CURSO: Sistemas de Informação`
 
@@ -11,11 +11,13 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Geovana Galvão Dias
+* Alessandra Lorena Batista Dias
+* Mariana Dias Pereira 
+* Igor Rodrigues Leão Bonfim
+* Álefe de Almeida Sousa
+* Pedro Lucas Serra Moura
+* Rafael Costa Lopes
 
 ## Orientador
 
