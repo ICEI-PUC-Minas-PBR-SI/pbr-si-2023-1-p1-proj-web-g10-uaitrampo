@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Alessandra Lorena Batista Dias
 * Mariana Dias Pereira 
 * Igor Rodrigues Leão Bonfim
-* Álefe de Almeida Sousa
+* Maria Heloisa Aguiar Mendes
 * Pedro Lucas Serra Moura
 * Rafael Costa Lopes
 
