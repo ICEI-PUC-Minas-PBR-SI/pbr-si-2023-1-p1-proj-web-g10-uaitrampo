@@ -1,46 +1,24 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O nosso projeto consiste em uma plataforma para contratação e prestação de serviços ligados a área de marketing digital. Devido a dificuldade hoje no mercado para encontrar profissionais qualificados, nossa plataforma como objetivo oferecer aos usuários uma solução completa para encontrar profissionais qualificados as suas necessidades. Nessa plataforma, esperamos ajudar clientes em busca de serviços de marketing digital a encontrar profissionais de maneira rápida e fácil, da mesma forma ajudar os profissionais a encontrarem trabalho autônomo de forma rápida e fácil.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Empresas que buscam serviços de marketing digital muitas vezes encontram dificuldades em encontrar profissionais que possam oferecer serviços de qualidade. Além disso, muitos profissionais da área possuem dificuldades em encontrar oportunidades de trabalho relevantes em sua área de atuação. Essas lacunas no mercado resultam em uma perda de oportunidades para empresas e profissionais.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Nosso primeiro objetivo é oferecer aos clientes uma maneira fácil e intuitiva de encontrar profissionais qualificados para suas necessidades de marketing digital. Além disso, queremos fornecer uma infraestrutura completa para a comunicação, gestão e faturamento dos projetos.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Nosso segundo objetivo é fornecer aos profissionais uma maneira fácil e conveniente de encontrar trabalhos relevantes em sua área de atuação, além de fornecer uma infraestrutura completa para a comunicação, gestão e faturamento dos projetos.
+
+Queremos ser a ponte entre prestadores de serviço e contratantes.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O marketing digital é uma parte essencial dos negócios modernos, e a falta de profissionais qualificados nessa área pode ser uma barreira significativa para o sucesso dos negócios.
+Com a nossa plataforma, esperamos ajudar empresas e empresários a encontrar os profissionais de que precisam para impulsionar seus negócios.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Nosso público-alvo vai de pequenos negócios a grandes empresas, de profissionais amadores a profissionais qualificados. Pretendemos atender um diverso grupo, sendo de pessoas jurídicas ou físicas, que buscam serviços de marketing digital e profissionais de áreas como, mídias sociais, marketing, publicidade digital, web designers entre outras.
