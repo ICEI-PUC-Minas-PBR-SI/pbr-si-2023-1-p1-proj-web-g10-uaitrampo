@@ -1,6 +1,6 @@
 # Introdução
 
-O nosso projeto consiste em uma plataforma para contratação e prestação de serviços ligados a área de marketing digital. Devido a dificuldade hoje no mercado para encontrar profissionais qualificados, nossa plataforma tem como objetivo oferecer aos usuários uma solução completa para encontrar profissionais qualificados as suas necessidades. Nessa plataforma, esperamos ajudar clientes em busca de serviços de marketing digital a encontrar profissionais de maneira rápida e fácil, da mesma forma ajudar os profissionais a encontrarem trabalho autônomo de forma rápida e fácil.
+O nosso projeto consiste em uma plataforma para contratação e prestação de serviços ligados a área de marketing digital. Devido a dificuldade hoje no mercado para encontrar profissionais qualificados, nossa plataforma tem como objetivo oferecer aos usuários uma solução completa para encontrar profissionais qualificados para suas necessidades. Nessa plataforma, esperamos ajudar clientes em busca de serviços de marketing digital a encontrar profissionais de maneira rápida e fácil, da mesma forma ajudar os profissionais a encontrarem trabalho autônomo de forma rápida e fácil.
 
 ## Problema
 
