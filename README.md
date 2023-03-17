@@ -18,7 +18,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Maria Heloisa Aguiar Mendes
 * Pedro Lucas Serra Moura
 * Lucas Felipe Barbosa
-* Gabriel
+* Gabriel Santiago Silva
 
 ## Orientador
 
