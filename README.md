@@ -17,7 +17,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Igor Rodrigues Leão Bonfim
 * Maria Heloisa Aguiar Mendes
 * Pedro Lucas Serra Moura
-* Rafael Costa Lopes
+* Lucas Felipe Barbosa
+* Gabriel
 
 ## Orientador
 
