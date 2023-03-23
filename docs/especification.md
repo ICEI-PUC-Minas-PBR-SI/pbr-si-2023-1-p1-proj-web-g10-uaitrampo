@@ -6,19 +6,14 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Persona contratante:
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Letícia tem 34 anos, é professora infantil e ama crianças. Ela tem 2 filhos e adora passar tempo com a família e amigos. Incentivada pelo desemprego devido a pandemia ela decidiu criar sua própria loja de roupas para bebês. Após ter tido muito sucesso no começo ela percebeu que suas vendas começaram a cair, e por não ter muito conhecimento na área de empreendedorismo e com medo de perder sua empresa Letícia decidiu começar a aprender sobre finanças e marketing digital na internet. Apesar de ter muita vontade de aprender ela não conseguia, já que além de ter que administrar sua loja ela também tinha que cuidar de sua família. Por não ter tempo o suficiente para ambas as tarefas ela acabou por decidir em contratar um profissional da área digital para auxiliá-la no processo de remakerting e reestruturação de sua empresa.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Persona marketeira:
+
+
+Ana Silva tem 27 anos e acabou de concluir sua graduação em comunicação social. Muito comunicativa, Ana sempre teve como hobbie conhecer pessoas e documentar sua vida através de fotos e vídeos. Apesar de gostar bastante de sua faculdade, Ana teve algumas experiências profissionais na área de publicidade como CLT, porém devido à falta de flexibilidade em seus horários e a estressante rotina de ter que gastar mais de 2h por dia apenas no transporte entre sua casa e seu local de trabalho, ela optou por deixar seu emprego e buscar oportunidades de trabalhar como freelancer pela internet.
 
 ## Histórias de Usuários
 
