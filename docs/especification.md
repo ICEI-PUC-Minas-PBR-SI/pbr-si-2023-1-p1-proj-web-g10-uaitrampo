@@ -46,16 +46,35 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-001| Permitir cadastro dos contratantes | ALTA |  |
+|RF-002| Permitir o cadastro de prestadores de serviços   | ALTA | |
+|RF-003| Permitir login dos usuários cadastrados.   | ALTA | |
+|RF-004| Permitir que os usuários agendem serviços com os prestadores de serviço   | ALTA | |
+|RF-005| Ferramentas de comunicação entre clientes e profissionais de marketing digital.   | MÉDIA | |
+|RF-006| Permitir que os usuários busquem os serviços   | MÉDIA | |
+|RF-007| Permitir adicionar e editar portfólio de serviços prestados   | MÉDIA | |
+|RF-008| Permitir que os usuários avaliem os prestadores de serviço   | BAIXA | |
+
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser fácil de usar e intuitivo, permitindo que os usuários encontrem facilmente os serviços que procuram. | ALTA | 
+|RNF-002| O sistema deve ser capaz de suportar um grande número de usuários e prestadores de serviço, sem prejudicar o desempenho |  ALTA | 
+|RNF-003| O sistema deve garantir a segurança das informações pessoais dos usuários |  ALTA | 
+|RNF-004| O sistema deve estar disponível para uso a qualquer momento, com um tempo de inatividade mínimo. |  MÉDIA | 
+|RNF-005| O sistema deve ser capaz de se integrar com outros sistemas, como sistemas de pagamento online, por exemplo. |  MÉDIA | 
+|RNF-006| O sistema deve ter um tempo de resposta rápido para a busca de serviços |  MÉDIA | 
+|RNF-007| O sistema deve ser compatível com diferentes dispositivos e navegadores |  MÉDIA | 
+
+
+
+
+
+
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
