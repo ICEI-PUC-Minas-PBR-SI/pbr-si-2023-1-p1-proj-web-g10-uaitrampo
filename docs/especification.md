@@ -1,8 +1,18 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+De modo geral para especificação do projeto, existem algumas etapas para planejamento do processo de desenvolvimento, para garantir qualidade e agilidade tanto do produto quanto do processo será utilizado  o método “ágil”, dessa forma será necessário tomar algumas ações:
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+    • identificar o cliente, a necessidade dele e determinar o que será validado;
+    • Estabelecer os parâmetros do sistema e do processo;
+        ◦ Verificar os prazos para entrega;
+        ◦ Otimizar o máximo possível o processo;
+        ◦ Distribuir as tarefas da equipe.
+    • Estabelecer os requisitos;
+        ◦ Funcionais;
+        ◦ Não funcionais.
+    • Verificar as restrições do projeto;
+    • Acompanhar o processo de desenvolvimento;
+    • Testar periodicamente o sistema.
 
 ## Personas
 
