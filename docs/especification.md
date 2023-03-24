@@ -85,7 +85,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| Não deve deixar de executar os requisitos de alta prioridade |
+|03| As entregas parciais devem ser concluídas nos prazos  |
+|04| A divisão de tarefas deve ser igualmente dividida de acordo com a capacidade de cada um|
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
