@@ -33,6 +33,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Empresário          | Encontrar um profissional qualificado em marketing digital | Ajudar a aumentar a presença online da minha empresa |
 |Prof. marketing dig.| Encontrar trabalhos autônomos      | Ampliar minha renda e expandir meu portfólio |
+|Cliente| Encontrar trabalhos autônomos      | Ampliar minha renda e expandir meu portfólio |
+|Empresário| Fornecer feedback sobre o trabalho de marketing digital que recebi      | Ajudar os profissionais a melhorar e garantir que outros clientes obtenham o mesmo nível de qualidade. |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
