@@ -22,7 +22,6 @@ Letícia tem 34 anos, é professora infantil e ama crianças. Ela tem 2 filhos e
 
 Persona marketeira:
 
-
 Ana Silva tem 27 anos e acabou de concluir sua graduação em comunicação social. Muito comunicativa, Ana sempre teve como hobbie conhecer pessoas e documentar sua vida através de fotos e vídeos. Apesar de gostar bastante de sua faculdade, Ana teve algumas experiências profissionais na área de publicidade como CLT, porém devido à falta de flexibilidade em seus horários e a estressante rotina de ter que gastar mais de 2h por dia apenas no transporte entre sua casa e seu local de trabalho, ela optou por deixar seu emprego e buscar oportunidades de trabalhar como freelancer pela internet.
 
 ## Histórias de Usuários
@@ -36,15 +35,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Cliente| Encontrar trabalhos autônomos      | Ampliar minha renda e expandir meu portfólio |
 |Empresário| Fornecer feedback sobre o trabalho de marketing digital que recebi      | Ajudar os profissionais a melhorar e garantir que outros clientes obtenham o mesmo nível de qualidade. |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -63,8 +53,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| Permitir adicionar e editar portfólio de serviços prestados   | MÉDIA | |
 |RF-008| Permitir que os usuários avaliem os prestadores de serviço   | BAIXA | |
 
-
-
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
@@ -77,7 +65,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-006| O sistema deve ter um tempo de resposta rápido para a busca de serviços |  MÉDIA | 
 |RNF-007| O sistema deve ser compatível com diferentes dispositivos e navegadores |  MÉDIA | 
 
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -88,10 +75,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não deve deixar de executar os requisitos de alta prioridade |
 |03| As entregas parciais devem ser concluídas nos prazos  |
 |04| A divisão de tarefas deve ser igualmente dividida de acordo com a capacidade de cada um|
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
