@@ -75,3 +75,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não deve deixar de executar os requisitos de alta prioridade |
 |03| As entregas parciais devem ser concluídas nos prazos  |
 |04| A divisão de tarefas deve ser igualmente dividida de acordo com a capacidade de cada um|
+|05| Projeto vai ser desenvolvido português                |
+|06| Ficará disponivel apenas para utilização no brasil    |
