@@ -7,22 +7,24 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto em desenvolvimento é a plataforma uaiTrampo, que tem como objetivo conectar contratantes e prestadores de serviço na área de marketing digital, oferecendo uma solução online segura, eficiente e inclusiva.
 
 ## Integrantes
 
 * Geovana Galvão Dias
 * Alessandra Lorena Batista Dias
 * Mariana Dias Pereira 
-* Igor Rodrigues Leão Bonfim
 * Maria Heloisa Aguiar Mendes
+* Igor Rodrigues Leão Bonfim
 * Pedro Lucas Serra Moura
 * Lucas Felipe Barbosa
 * Gabriel Santiago Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+Franciele Cristina Parreiras Rodrigues
+Cristiano Geraldo Teixeira Silva
+Fábio Leandro Rodrigues Cordeiro
 
 # Planejamento
 
