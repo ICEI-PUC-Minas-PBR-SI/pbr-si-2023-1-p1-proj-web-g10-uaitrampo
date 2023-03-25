@@ -22,9 +22,9 @@ O projeto em desenvolvimento é a plataforma uaiTrampo, que tem como objetivo co
 
 ## Orientador
 
-Franciele Cristina Parreiras Rodrigues
-Cristiano Geraldo Teixeira Silva
-Fábio Leandro Rodrigues Cordeiro
+* Franciele Cristina Parreiras Rodrigues
+* Cristiano Geraldo Teixeira Silva
+* Fábio Leandro Rodrigues Cordeiro
 
 # Planejamento
 
