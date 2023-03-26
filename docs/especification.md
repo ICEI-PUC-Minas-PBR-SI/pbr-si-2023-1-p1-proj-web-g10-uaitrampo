@@ -2,7 +2,7 @@
 
 De modo geral para especificação do projeto, existem algumas etapas para planejamento do processo de desenvolvimento, para garantir qualidade e agilidade tanto do produto quanto do processo será utilizado  o método “ágil”, dessa forma será necessário tomar algumas ações:
 
-    • identificar o cliente, a necessidade dele e determinar o que será validado;
+    • Identificar o cliente, a necessidade dele e determinar o que será validado;
     • Estabelecer os parâmetros do sistema e do processo;
         ◦ Verificar os prazos para entrega;
         ◦ Otimizar o máximo possível o processo;
@@ -51,7 +51,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| Ferramentas de comunicação entre clientes e profissionais de marketing digital.   | MÉDIA | |
 |RF-006| Permitir que os usuários busquem os serviços   | MÉDIA | |
 |RF-007| Permitir adicionar e editar portfólio de serviços prestados   | MÉDIA | |
-|RF-008| Permitir que os usuários avaliem os prestadores de serviço   | BAIXA | |
+|RF-008| Ferramenta para facilidade de visualização   | MÉDIA | |
+|RF-009| Permitir que os usuários avaliem os prestadores de serviço   | BAIXA | |
 
 ### Requisitos não Funcionais
 
