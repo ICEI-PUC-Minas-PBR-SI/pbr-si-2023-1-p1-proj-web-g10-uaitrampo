@@ -44,15 +44,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir cadastro dos contratantes | ALTA |  |
-|RF-002| Permitir o cadastro de prestadores de serviços   | ALTA | |
-|RF-003| Permitir login dos usuários cadastrados.   | ALTA | |
-|RF-004| Permitir que os usuários agendem serviços com os prestadores de serviço   | ALTA | |
-|RF-005| Ferramentas de comunicação entre clientes e profissionais de marketing digital.   | MÉDIA | |
-|RF-006| Permitir que os usuários busquem os serviços   | MÉDIA | |
-|RF-007| Permitir adicionar e editar portfólio de serviços prestados   | MÉDIA | |
-|RF-008| Ferramenta para facilidade de visualização   | MÉDIA | |
-|RF-009| Permitir que os usuários avaliem os prestadores de serviço   | BAIXA | |
+|RF-001| Permitir cadastro dos contratantes, contendo os seguintes dados, nome, email, senha, CPF, número de telefone, aceitação dos termos e condições e informações adicionais de contato, como endereço, cidade e estado. | ALTA |  |
+|RF-002| Permitir o cadastro de prestadores de serviços, contendo os seguintes dados, nome, email, senha, CNPJ ou CPF caso não tenha CNPJ, número de telefone, aceitação dos termos e condições e informações adicionais de contato, como endereço, cidade e estado.   | ALTA | |
+|RF-003| Permitir que o usúario edite algumas informações de seu perfil, como nome, email, senha, informações de contato e informações adicionais  | ALTA |  |
+|RF-004| Permitir login dos usuários cadastrados, inserindo o email e a senha do usúario   | ALTA | |
+|RF-005| Permitir que os usuários agendem serviços com os prestadores de serviço   | ALTA | |
+|RF-006| Ferramentas de comunicação entre clientes e profissionais de marketing digital.   | MÉDIA | |
+|RF-007| Permitir que os usuários busquem os serviços atráves de um filtro digitado   | MÉDIA | |
+|RF-008| Permitir adicionar e editar portfólio de serviços prestados, podendo adicionar um link de algum site, ou um link de suas redes sociais.   | MÉDIA | |
+|RF-009| Ferramenta para facilidade de visualização   | MÉDIA | |
+|RF-0010| Permitir que os usuários avaliem os prestadores de serviço em uma escala de 1 a 5, após a finalização do serviço prestado.   | BAIXA | |
 
 ### Requisitos não Funcionais
 
