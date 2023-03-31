@@ -20,11 +20,10 @@ O projeto em desenvolvimento é a plataforma uaiTrampo, que tem como objetivo co
 * Lucas Felipe Barbosa
 * Gabriel Santiago Silva
 
-## Orientador
+## Orientadora
 
 * Franciele Cristina Parreiras Rodrigues
-* Cristiano Geraldo Teixeira Silva
-* Fábio Leandro Rodrigues Cordeiro
+
 
 # Planejamento
 
