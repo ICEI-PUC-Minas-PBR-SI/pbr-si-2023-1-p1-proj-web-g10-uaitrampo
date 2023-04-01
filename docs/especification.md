@@ -2,7 +2,8 @@
 
 De modo geral para especificação do projeto, existem algumas etapas para planejamento do processo de desenvolvimento, para garantir qualidade e agilidade tanto do produto quanto do processo será utilizado  o método “ágil”, dessa forma será necessário tomar algumas ações:
 
-    • Identificação do cliente e sua necessidade: é importante entender quem será o público-alvo da plataforma, quais são suas necessidades e expectativas em relação ao serviço que será oferecido.
+    • Identificação do cliente e sua necessidade: é importante entender quem será o público-alvo da plataforma, quais são
+    suas necessidades e expectativas em relação ao serviço que será oferecido.
     • Estabelecer os parâmetros do sistema e do processo;
         ◦ Verificar os prazos para entrega;
         ◦ Otimizar o máximo possível o processo;
@@ -11,8 +12,10 @@ De modo geral para especificação do projeto, existem algumas etapas para plane
         ◦ Funcionais: funcionalidades da plataforma, ou seja, o que ela deve ser capaz de fazer.
         ◦ Não funcionais: estão relacionados ao desempenho, escalabilidade, segurança, entre outros aspectos da plataforma;
     • Verificar e documentar as restrições do projeto;
-    • Acompanhar o processo de desenvolvimento: reuniões periódicas para avaliar o progresso e verificar se tudo está ocorrendo conforme o planejado;
-    • Testar periodicamente o sistema: é importante que o sistema seja testado periodicamente para garantir sua qualidade e eficiência, evitando possíveis erros e bugs;
+    • Acompanhar o processo de desenvolvimento: reuniões periódicas para avaliar o progresso e verificar se tudo está ocorrendo
+    conforme o planejado;
+    • Testar periodicamente o sistema: é importante que o sistema seja testado periodicamente para garantir sua qualidade e 
+    eficiência, evitando possíveis erros e bugs;
 
 ## Personas
 
