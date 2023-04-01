@@ -42,18 +42,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Permitir cadastro dos contratantes, contendo os seguintes dados, nome, email, senha, CPF, número de telefone, aceitação dos termos e condições e informações adicionais de contato, como endereço, cidade e estado. | ALTA |  |
-|RF-002| Permitir o cadastro de prestadores de serviços, contendo os seguintes dados, nome, email, senha, CNPJ ou CPF caso não tenha CNPJ, número de telefone, aceitação dos termos e condições e informações adicionais de contato, como endereço, cidade e estado.   | ALTA | |
-|RF-003| Permitir que o usúario edite algumas informações de seu perfil, como nome, email, senha, informações de contato e informações adicionais  | ALTA |  |
-|RF-004| Permitir login dos usuários cadastrados, inserindo o email e a senha do usúario   | ALTA | |
-|RF-005| Permitir que os usuários agendem serviços com os prestadores de serviço   | ALTA | |
-|RF-006| Ferramentas de comunicação entre clientes e profissionais de marketing digital.   | MÉDIA | |
-|RF-007| Permitir que os usuários busquem os serviços atráves de um filtro digitado   | MÉDIA | |
-|RF-008| Permitir adicionar e editar portfólio de serviços prestados, podendo adicionar um link de algum site, ou um link de suas redes sociais.   | MÉDIA | |
-|RF-009| Ferramenta para facilidade de visualização   | MÉDIA | |
-|RF-0010| Permitir que os usuários avaliem os prestadores de serviço em uma escala de 1 a 5, após a finalização do serviço prestado.   | BAIXA | |
+| ID    | Descrição do Requisito                                                                                   | Prioridade | Responsável |
+|-------|----------------------------------------------------------------------------------------------------------|------------|-------------|
+| RF-001| Permitir cadastro dos contratantes e profissionais. A página de cadastro deverá apresentar os seguintes itens: <br> Caixas de seleção: "Você quer: Contratar ou ser contratado?" <br> *apenas essa caixa deverá aparecer quando se iniciar o cadastro. O layout da página deverá mudar dependendo da escolha <br> <br> Tipo de empreendedor: amador, MEI, microempreendedor individual etc. <br> <br> CNPJ ou CPF <br> <br> Campos digitáveis: CPF ou CNPJ <br> Área reservada para descrever o usuário, e colocar o que ele procurar na plataforma. <br> <br> Campos para adição de redes sociais com ícones das respectivas redes sendo elas linkedin e instagram. Adicione também "outros" com um ícone de link. <br> <br> Aceitação de termos de uso e condições obrigatórias para conclusão do cadastro. (A definir) <br> Aceitação dos termos de responsabilidade obrigatório para conclusão do cadastro. (A definir)| ALTA |
+| RF-002| Permitir alterações nos cadastros dos usuários (contratantes e prestadores de serviço). | MÉDIA |
+| RF-003| Permitir exclusões nos cadastros dos usuários (contratantes e prestadores de serviço). | MÉDIA |
+| RF-004| Permitir login dos usuários cadastrados, inserindo o email e a senha do usúario. | ALTA |
+| RF-005| Href de "Esqueceu a senha?" para fazer recuperação via email na mesma página onde se faz o login <br> Href de "Ainda não é cadastrado? Comece por aqui." <br> <br> *Href: texto clicável com redirecionamento. | MÉDIA|
+| RF-006| Página para cadastro e para trocar senha. | MÉDIA |
+| RF-007| Ferramentas de comunicação entre clientes e prestadores de serviços de marketing digital. Isso deverá ser implementado no formato de chat e de comentários em publicações.| ALTA|
+| RF-008| Permitir que os usuários façam buscas por meio de uma barra de pesquisa. Incluir também, um sistema de busca por palavra-chave e tipo de serviço, por meio de tags pré-feitas, sem a possibilidade de alteração por usuário. | MÉDIA |
+| RF-009| Permitir adicionar, editar e excluir portfólios no formato de PDF apenas. | MÉDIA |
+| RF-0010| Permitir que o usuário demonstre em seu perfil todos os serviços já feitos por ele dentro da plataforma.| BAIXA |
+| RF-0011| Permitir que os usuários avaliem os prestadores de serviço. Incluir sistema de avaliação por estrelas e possibilidade de escrever comentários. | BAIXA |
+| RF-0012| Permitir que usuários alterem o tamanho da fonte dos textos da plataforma para acessibilidade. A alteração deve ser feita de uma maneira que não desconfigure o layout. | BAIXA | 
 
 ### Requisitos não Funcionais
 
