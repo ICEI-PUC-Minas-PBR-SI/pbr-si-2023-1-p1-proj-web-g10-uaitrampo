@@ -37,6 +37,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Prof. marketing dig.| Encontrar trabalhos autônomos      | Ampliar minha renda e expandir meu portfólio |
 |Cliente| Encontrar trabalhos autônomos      | Ampliar minha renda e expandir meu portfólio |
 |Empresário| Fornecer feedback sobre o trabalho de marketing digital que recebi      | Ajudar os profissionais a melhorar e garantir que outros clientes obtenham o mesmo nível de qualidade. |
+|Designer gráfico amador       | Mudar o tamanho das fontes                 | Mais acessibilidade por conta de um problema de visão |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 ## Requisitos
