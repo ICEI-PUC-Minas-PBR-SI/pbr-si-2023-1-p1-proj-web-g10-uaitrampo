@@ -16,7 +16,6 @@ O projeto em desenvolvimento é a plataforma uaiTrampo, que tem como objetivo co
 * Mariana Dias Pereira 
 * Maria Heloisa Aguiar Mendes
 * Igor Rodrigues Leão Bonfim
-* Pedro Lucas Serra Moura
 * Lucas Felipe Barbosa
 * Gabriel Santiago Silva
 
