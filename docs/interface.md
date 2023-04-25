@@ -1,20 +1,18 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+O projeto de interface da plataforma uaiTrampo tem como objetivo proporcionar uma experiência intuitiva e agradável para os usuários, sejam eles contratantes ou prestadores de serviço. Para isso, foram considerados aspectos como a organização das informações, clareza nas funcionalidades, facilidade de navegação e design atrativo. A página de cadastro é o primeiro contato com o usuário, e por isso, é importante que seja simples e direta. A plataforma será desenvolvida para ser objetiva, ponto crucial do site, permitindo que os usuários encontrem os serviços desejados de forma rápida e eficiente. 
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+![Exemplo de UserFlow](https://media.discordapp.net/attachments/736460098179956759/1100491478305869824/1.png?width=887&height=499)
+![Exemplo de UserFlow](https://media.discordapp.net/attachments/736460098179956759/1100491491509542973/2.png?width=887&height=499)
+![Exemplo de UserFlow](https://media.discordapp.net/attachments/736460098179956759/1100491498883137578/3.png?width=887&height=499)
+![Exemplo de UserFlow](https://media.discordapp.net/attachments/736460098179956759/1100491504784519228/4.png?width=887&height=499)
+![Exemplo de UserFlow](https://media.discordapp.net/attachments/736460098179956759/1100491510803349584/5.png?width=887&height=499)
+![Exemplo de UserFlow](https://media.discordapp.net/attachments/736460098179956759/1100491517749104730/6.png?width=887&height=499)
+![Exemplo de UserFlow](https://media.discordapp.net/attachments/736460098179956759/1100491527547015268/7.png?width=887&height=499)
 
 
 ## Wireframes
