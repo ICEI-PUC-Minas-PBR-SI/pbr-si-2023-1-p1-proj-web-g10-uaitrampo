@@ -11,7 +11,7 @@ O projeto em desenvolvimento é a plataforma uaiTrampo, que tem como objetivo co
 
 ## Integrantes
 
-* Geovana Galvão Dias
+
 * Alessandra Lorena Batista Dias
 * Mariana Dias Pereira 
 * Maria Heloisa Aguiar Mendes
