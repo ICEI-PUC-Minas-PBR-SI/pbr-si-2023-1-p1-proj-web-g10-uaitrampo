@@ -101,3 +101,170 @@ color: #FFFFFF;
     margin-top: 8px;
   }
 }
+
+/*Perfil*/
+  
+@media (max-width: 990px) {}
+.profile img {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}  
+
+.profile img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+margin-right: 20px;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+z-index: 1;
+margin-top: -18px;
+margin-bottom: -20px;
+}
+
+.profile {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+position: relative;
+z-index: 1;
+background-color: #4174B4;
+padding: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.engrenagemImg{
+width: 20px;
+height: 20px;
+}
+
+.h5{
+text-align: center;
+}
+
+.inputText{
+width: 550px;
+height: 40px;
+display: block;
+margin: auto;
+opacity: 0,5;
+border-radius: 10px;
+
+}
+
+.inputText1{
+width: 550px;
+height: 110px;
+display: block;
+margin:0 auto;
+opacity: 0,5;
+border-radius: 10px;
+text-align: center;
+
+
+}
+
+.Profile-info h1{
+text-align: center;
+margin-top: -3px;
+font-family: SansSerifBldFLF;
+
+}
+.Profile-info h2{
+text-align: center;
+font-family: SansSerifBldFLF;
+} 
+.profile-info h3 {
+text-align: center;
+font-family: SansSerifBldFLF;
+}
+.profile-info h4{
+text-align: center;
+font-family: SansSerifBldFLF;
+}
+
+.portfolio h4 {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 10px;
+text-align: center;
+font-family: SansSerifBldFLF;
+
+}
+
+.portfolio-container {
+display: flex;
+align-items: center;
+margin-bottom: 0px;
+width: 550px;
+align-content: center;
+text-align: center;
+margin-top: 10px;
+
+}
+.Profile-info{
+display: block;
+align-items: center;
+
+}
+.portfolio-container .inputText1{
+flex: 1;
+}
+
+
+.portfolio-container button {
+background-color: #4174B4;
+color: white;
+padding: 5px 10px;
+border: none;
+border-radius: 250px;
+margin-left: 10px;
+cursor: pointer;
+justify-content:flex-start;
+}
+
+.portfolio-container button:hover {
+background-color:#4174B4;
+}
+
+.gear-border{
+position: absolute;
+top: 50%;
+right: 10px;
+transform: translateY(-50%);
+width: 40px;
+height: 40px;
+background-color: #4174B4;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1;
+margin-top: -55px;
+
+border-radius: -10px;
+}
+
+
+
+
+.textPdf{
+font-size: 20px;
+text-align: center;
+
+}
+
+
+.portfolioButton {
+  display: inline-block;
+vertical-align: middle;
+}
