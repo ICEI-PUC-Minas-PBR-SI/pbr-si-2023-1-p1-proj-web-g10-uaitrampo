@@ -153,44 +153,64 @@ text-align: center;
 }
 
 .inputText{
-width: 550px;
-height: 40px;
-display: block;
+justify-content: center;
+display: flex;
 margin: auto;
 opacity: 0,5;
 border-radius: 10px;
 
+background: linear-gradient(0deg, #E2EFFF, #E2EFFF), linear-gradient(0deg, #4174B4, #4174B4), linear-gradient(0deg, #4174B4, #4174B4), #4174B4;;
+
 }
 
 .inputText1{
-width: 550px;
-height: 110px;
-display: block;
+justify-content: center;
+display: flex;
 margin:0 auto;
 opacity: 0,5;
 border-radius: 10px;
 text-align: center;
+box-shadow: inset 0px -4px 4px #4174B4;
+background: linear-gradient(0deg, #E2EFFF, #E2EFFF), linear-gradient(0deg, #4174B4, #4174B4), linear-gradient(0deg, #4174B4, #4174B4), #4174B4;
+height: 95px;
+font-style: italic;
+}
 
-
+.inputText2{
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  opacity: 0,5;
+  border-radius: 10px;
+  width: 36%;
+  background: linear-gradient(0deg, #E2EFFF, #E2EFFF), linear-gradient(0deg, #4174B4, #4174B4), linear-gradient(0deg, #4174B4, #4174B4), #4174B4;;
+  
 }
 
 .Profile-info h1{
 text-align: center;
-margin-top: -3px;
+margin-top: -4px;
 font-family: SansSerifBldFLF;
 
 }
 .Profile-info h2{
 text-align: center;
 font-family: SansSerifBldFLF;
+
 } 
 .profile-info h3 {
 text-align: center;
 font-family: SansSerifBldFLF;
+
 }
 .profile-info h4{
 text-align: center;
-font-family: SansSerifBldFLF;
+font-family: 'SansSerifFLF';
+font-style: normal;
+font-weight: 550;
+font-size: 24px;
+line-height: 22px;
+text-align: center;
 }
 
 .portfolio h4 {
@@ -213,8 +233,13 @@ margin-top: 10px;
 
 }
 .Profile-info{
-display: block;
+display:contents;
 align-items: center;
+margin-bottom: 0px;
+width: 550px;
+align-content: center;
+text-align: center;
+margin-top: 10px;
 
 }
 .portfolio-container .inputText1{
@@ -238,22 +263,32 @@ background-color:#4174B4;
 }
 
 .gear-border{
-position: absolute;
+float: right;
 top: 50%;
 right: 10px;
 transform: translateY(-50%);
-width: 40px;
-height: 40px;
+width: 2rem; /* ajuste o tamanho conforme necessário */
+height: 2rem;
 background-color: #4174B4;
 display: flex;
 justify-content: center;
 align-items: center;
 z-index: 1;
-margin-top: -55px;
-
-border-radius: -10px;
+position: absolute;
+border-radius: -10%;
+margin-top: -4%;
 }
 
+.gear-border button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-size: 1rem;
+  margin-left: -3550%;
+  margin-top: -6%;
+}
 
 
 
@@ -265,6 +300,10 @@ text-align: center;
 
 
 .portfolioButton {
-  display: inline-block;
+display: inline-block;
 vertical-align: middle;
+transform: rotate(-179.76deg);
+border-radius: -10px;
 }
+
+
