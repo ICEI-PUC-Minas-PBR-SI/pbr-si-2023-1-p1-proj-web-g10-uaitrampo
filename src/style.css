@@ -193,6 +193,12 @@ text-align: center;
 font-family: SansSerifBldFLF;
 }
 
+.Profile-info{
+  width: 70%;
+  margin: auto;
+  font-family: 'SansSerifBldFLF';
+}
+
 .portfolio h4 {
 font-size: 18px;
 font-weight: bold;
