@@ -1,3 +1,6 @@
+*{font-family: 'SansSerifBldFLF';}
+
+
 .telaInicial {
   background: #FFFFFF;
   
@@ -103,46 +106,25 @@ color: #FFFFFF;
 }
 
 /*Perfil*/
-  
-@media (max-width: 990px) {}
-.profile img {
-  margin-right: 0;
-  margin-bottom: 10px;
-}
-
-.profile {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}  
 
 .profile img {
 width: 150px;
 height: 150px;
 border-radius: 50%;
-object-fit: cover;
-margin-right: 20px;
-max-width: 800px;
-margin: 0 auto;
-padding: 20px;
-z-index: 1;
-margin-top: -18px;
-margin-bottom: -20px;
+padding: 10px;
+margin-left: 35px;
 }
 
 .profile {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-position: relative;
-z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 background-color: #4174B4;
 padding: 10px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .engrenagemImg{
 width: 20px;
 height: 20px;
@@ -190,17 +172,17 @@ font-style: italic;
 .Profile-info h1{
 text-align: center;
 margin-top: -4px;
-font-family: SansSerifBldFLF;
+font-family: 'SansSerifBldFLF';
 
 }
 .Profile-info h2{
 text-align: center;
-font-family: SansSerifBldFLF;
+font-family: 'SansSerifBldFLF';
 
 } 
 .profile-info h3 {
 text-align: center;
-font-family: SansSerifBldFLF;
+font-family: 'SansSerifBldFLF';
 
 }
 .profile-info h4{
@@ -218,7 +200,7 @@ font-size: 18px;
 font-weight: bold;
 margin-bottom: 10px;
 text-align: center;
-font-family: SansSerifBldFLF;
+font-family: 'SansSerifBldFLF';
 
 }
 
@@ -267,7 +249,7 @@ float: right;
 top: 50%;
 right: 10px;
 transform: translateY(-50%);
-width: 2rem; /* ajuste o tamanho conforme necessário */
+width: 2rem;
 height: 2rem;
 background-color: #4174B4;
 display: flex;
@@ -284,7 +266,7 @@ margin-top: -4%;
   padding: 0;
   border: none;
   background: none;
-  font-size: 16px;
+  font-size: 16%;
   font-size: 1rem;
   margin-left: -3550%;
   margin-top: -6%;
@@ -307,3 +289,4 @@ border-radius: -10px;
 }
 
 
+@media (max-width: 990px) {}
