@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  
+
 }
 
 .containerNavButtons {
@@ -50,32 +50,33 @@
   position: relative;
   align-items: center;
   margin-right: 15px;
-  
+
 }
+
 .lupaImg {
   position: absolute;
   margin-left: 8px;
 }
 
 .inputPesquisa {
-box-sizing: border-box;
-width: 330px;
-height: 40px;
-border: 3px solid #4174B4;
-border-radius: 24px;
+  box-sizing: border-box;
+  width: 330px;
+  height: 40px;
+  border: 3px solid #4174B4;
+  border-radius: 24px;
 }
 
 .botaoPublicar {
-width: 200px;
-height: 40px;
-border: none;
-background: #776AC4;
-border-radius: 24px;
-font-family: 'SansSerifFLF';
-font-style: normal;
-font-weight: 550;
-font-size: 16px;
-color: #FFFFFF;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background: #776AC4;
+  border-radius: 24px;
+  font-family: 'SansSerifFLF';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  color: #FFFFFF;
 
 }
 
@@ -88,17 +89,17 @@ color: #FFFFFF;
 }
 
 */
-.conteudo{
+.conteudo {
   font-family: 'SansSerifBldFLF';
-width: 100%; 
-margin-top: 50%; 
-display: flex; 
-margin: auto; 
-justify-content: center;
+  width: 100%;
+  margin-top: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
 
 
-.telaTudoCerto{ 
+.telaTudoCerto {
   padding: 10px;
   margin: auto;
   width: 100%;
@@ -108,54 +109,235 @@ justify-content: center;
 }
 
 
-h1{
+h1 {
   margin-top: 4%;
 }
 
-.botaoLogar{
-  margin-top: 5% ;
+.botaoLogar {
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 
-.btn-outline-dark{
+.btn-outline-dark {
   font-size: 130%;
   width: 30%;
-  }
+}
 
-.modal-dialog{
+.modal-dialog {
   margin-top: 15%;
 
-  }
+}
 
 @media (max-width: 990px) {
-  
-  .modal-content{
+
+  .modal-content {
     display: flex;
     margin: auto;
     margin-top: 10%;
   }
-    
-  .telaTudoCerto{
+
+  .telaTudoCerto {
     width: 100%;
   }
-    
-    h1{
+
+  h1 {
     margin-top: 5%;
     margin-bottom: 10%;
   }
 
-  .botaoLogar{
+  .botaoLogar {
     margin-bottom: 5%;
   }
-  
-  .btn-outline-dark{
+
+  .btn-outline-dark {
     font-size: 130%;
     width: 50%;
-    }
-
-    .modal-dialog{
-      margin-top: 50%;
-  
-    }
-  
   }
+
+  .modal-dialog {
+    margin-top: 50%;
+
+  }
+
+}
+
+
+/*Perfil*/
+
+@media (max-width: 990px) {}
+
+.profile img {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  z-index: 1;
+  margin-top: -18px;
+  margin-bottom: -20px;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  background-color: #4174B4;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.engrenagemImg {
+  width: 20px;
+  height: 20px;
+}
+
+.h5 {
+  text-align: center;
+}
+
+.inputText {
+  width: 550px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  opacity: 0, 5;
+  border-radius: 10px;
+
+}
+
+.inputText1 {
+  width: 550px;
+  height: 110px;
+  display: block;
+  margin: 0 auto;
+  opacity: 0, 5;
+  border-radius: 10px;
+  text-align: center;
+
+
+}
+
+.Profile-info h1 {
+  text-align: center;
+  margin-top: -3px;
+  font-family: SansSerifBldFLF;
+
+}
+
+.Profile-info h2 {
+  text-align: center;
+  font-family: SansSerifBldFLF;
+}
+
+.profile-info h3 {
+  text-align: center;
+  font-family: SansSerifBldFLF;
+}
+
+.profile-info h4 {
+  text-align: center;
+  font-family: SansSerifBldFLF;
+}
+
+.Profile-info {
+  width: 70%;
+  margin: auto;
+  font-family: 'SansSerifBldFLF';
+}
+
+.portfolio h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: SansSerifBldFLF;
+
+}
+
+.portfolio-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  width: 550px;
+  align-content: center;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.Profile-info {
+  display: block;
+  align-items: center;
+
+}
+
+.portfolio-container .inputText1 {
+  flex: 1;
+}
+
+
+.portfolio-container button {
+  background-color: #4174B4;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 250px;
+  margin-left: 10px;
+  cursor: pointer;
+  justify-content: flex-start;
+}
+
+.portfolio-container button:hover {
+  background-color: #4174B4;
+}
+
+.gear-border {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #4174B4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  margin-top: -55px;
+
+  border-radius: -10px;
+}
+
+
+
+
+.textPdf {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+
+.portfolioButton {
+  display: inline-block;
+  vertical-align: middle;
+}
