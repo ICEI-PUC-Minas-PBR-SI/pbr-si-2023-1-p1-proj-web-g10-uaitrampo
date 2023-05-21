@@ -101,3 +101,30 @@ color: #FFFFFF;
     margin-top: 8px;
   }
 }
+.publicacao {
+  background-color: #AC8EF0; 
+  font-family: 'SansSerifFLF';
+  color: #000000;
+  height: 280px;
+  width: 900px;
+  margin-bottom: 10px;
+  }
+
+  .publicacao2 {
+    background-color:#A9D4F4; 
+    font-family: 'SansSerifFLF';
+    color: #000000;
+    height: 280px;
+    width: 900px;
+    margin-bottom: 10px;
+    }
+
+.opcoes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 35px;
+  background: #3f1ff4;
+  color: #ffffff;
+  margin-bottom: 10px;
+} 
