@@ -1,0 +1,226 @@
+
+
+
+
+#espacoRoxoHeader{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 65px;
+    background-color: #776AC5;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    background: #776AC5;
+  }
+  
+  
+  .cadastro{
+     
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      flex-direction: column;
+      margin-top: 50px;
+      
+
+      }
+
+
+      .cadastro h1{
+        font-family: 'SansSerifFLF';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 36px;
+        line-height: 33px;
+        
+        color: #000000;
+        
+    }
+    
+    .cadastro h3{
+        font-family: 'SansSerifFLF';
+font-style: normal;
+font-weight: 550;
+font-size: 14px;
+line-height: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+color: #000000;
+    }
+    .cadastro p{
+        font-family: 'SansSerifFLF';
+font-style: normal;
+font-weight: 510;
+font-size: 12px;
+line-height: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+color: #0000FF;
+
+    }
+      
+      .checkout{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+      }
+      
+
+      
+      .cadastroInfor{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+     
+      }
+      
+      .cadastroInfor label{
+          font-family: 'SansSerifFLF';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+   color: #000000;
+  
+  
+}
+   
+
+
+      .cadastroInfor input{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 20px;
+      
+  
+          background: linear-gradient(0deg, #E2EFFF, #E2EFFF), conic-gradient(from 180deg at 50% 50%, #4174B4 0deg, rgba(65, 116, 180, 0) 360deg), conic-gradient(from 180deg at 50% 50%, #4174B4 0deg, rgba(65, 116, 180, 0) 360deg), conic-gradient(from 180deg at 50% 50%, #4174B4 0deg, rgba(65, 116, 180, 0) 360deg);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+          
+  
+    
+
+      }
+      .input1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    #placeholder-txt::placeholder{
+        font-family: 'SansSerifFLF';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+        color: #000000;
+    }
+
+    #placeholder-txt1::placeholder{
+        font-family: 'SansSerifFLF';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 16px;
+        line-height: 18px;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+    }
+
+
+
+        
+    #placeholder-txt2::placeholder{
+        font-family: 'SansSerifFLF';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 16px;
+        line-height: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        
+    }
+
+
+
+      .selecao{
+         
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'SansSerifFLF';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  
+  
+  color: #000000;
+  
+      }
+      
+     
+      
+      .termos{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 8px;
+          border-color: #776AC5;
+      }
+      .termos:hover {
+          background-color:  #a937d6;
+          color: #FFFFFF;
+        }
+      .uso{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .termoUso{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      
+      .finalizar{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+          border-radius: 9px;
+          border-color: #776AC5;
+          
+      }
+      .finalizar:hover {
+          background-color:  #a937d6;
+          color: #FFFFFF;
+        }
+    
+    
