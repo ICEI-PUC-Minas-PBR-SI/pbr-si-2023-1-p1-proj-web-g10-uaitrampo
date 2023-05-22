@@ -123,6 +123,8 @@
 }
 
 */
+
+
 .conteudo {
   font-family: 'SansSerifBldFLF';
   width: 100%;
@@ -139,7 +141,9 @@
   width: 100%;
   text-align: center;
   border-radius: 20px;
-  background: #c8ecdc;
+  background: #ccbcfc
+
+  ;
 }
 
 
@@ -162,38 +166,6 @@ h1 {
 
 }
 
-@media (max-width: 990px) {
-
-  .modal-content {
-    display: flex;
-    margin: auto;
-    margin-top: 10%;
-  }
-
-  .telaTudoCerto {
-    width: 100%;
-  }
-
-  h1 {
-    margin-top: 5%;
-    margin-bottom: 10%;
-  }
-
-  .botaoLogar {
-    margin-bottom: 5%;
-  }
-
-  .btn-outline-dark {
-    font-size: 130%;
-    width: 50%;
-  }
-
-  .modal-dialog {
-    margin-top: 50%;
-
-  }
-
-}
 
 
 /*Perfil*/
@@ -246,10 +218,6 @@ h1 {
   height: 20px;
 }
 
-.engrenagemImg {
-  width: 20px;
-  height: 20px;
-}
 
 .inputText {
   justify-content: center;
@@ -257,52 +225,12 @@ h1 {
   margin: auto;
   opacity: 0, 5;
   border-radius: 10px;
-
   background: linear-gradient(0deg, #E2EFFF, #E2EFFF), linear-gradient(0deg, #4174B4, #4174B4), linear-gradient(0deg, #4174B4, #4174B4), #4174B4;
-  ;
 
 }
 
 .h5 {
   text-align: center;
-}
-
-.inputText1 {
-  justify-content: center;
-  display: flex;
-  margin: 0 auto;
-  opacity: 0, 5;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: inset 0px -4px 4px #4174B4;
-  background: linear-gradient(0deg, #E2EFFF, #E2EFFF), linear-gradient(0deg, #4174B4, #4174B4), linear-gradient(0deg, #4174B4, #4174B4), #4174B4;
-  height: 95px;
-  font-style: italic;
-}
-
-.inputText2 {
-  justify-content: center;
-  display: flex;
-  margin: auto;
-  opacity: 0, 5;
-  border-radius: 10px;
-  width: 36%;
-  background: linear-gradient(0deg, #E2EFFF, #E2EFFF), linear-gradient(0deg, #4174B4, #4174B4), linear-gradient(0deg, #4174B4, #4174B4), #4174B4;
-  ;
-
-}
-
-.Profile-info h1 {
-  text-align: center;
-  margin-top: -4px;
-  font-family: 'SansSerifBldFLF';
-
-}
-
-.Profile-info h2 {
-  text-align: center;
-  font-family: 'SansSerifBldFLF';
-
 }
 
 .profile-info h3 {
@@ -311,24 +239,6 @@ h1 {
 
 }
 
-.profile-info h4 {
-  text-align: center;
-  font-family: 'SansSerifFLF';
-  font-style: normal;
-  font-weight: 550;
-  font-size: 24px;
-  line-height: 22px;
-  text-align: center;
-}
-
-.portfolio h4 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  text-align: center;
-  font-family: 'SansSerifBldFLF';
-
-}
 
 .portfolio-container {
   display: flex;
@@ -352,9 +262,6 @@ h1 {
 
 }
 
-.portfolio-container .inputText1 {
-  flex: 1;
-}
 
 
 .portfolio-container button {
@@ -447,6 +354,7 @@ vertical-align: middle;
 transform: rotate(-179.76deg);
 border-radius: -10px;
 } */
+
 .botaoLogar {
   margin-bottom: 5%;
 }
@@ -460,3 +368,122 @@ border-radius: -10px;
   margin-top: 50%;
 
 }
+
+
+  .modal-dialog {
+      margin-top: 8% !important;
+  }
+
+  .modal-content{
+    display: flex;
+    margin: auto;
+    margin-top: 30%; 
+  }
+  
+  .conteudo{
+    font-family: 'SansSerifBldFLF';
+    width: 100%; 
+    }
+  
+    .telaAdicionarArquivo{
+      padding: 15px;
+      list-style-type: none;
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      border-radius: 20px;
+      background: #ccbcfc;
+    }
+
+    h2{
+      margin-top: 4%;
+    }
+    
+    .formsAdicionarPDF{
+      display: flex;
+      align-items: center;
+      margin: auto;
+      margin-top: 5%;
+      width: 80%;
+    }
+    
+    .botaoAdicionar{
+      margin-top: 5%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .btn-outline-dark{
+    font-size: 130%;
+    width: 40%;
+    
+    }
+
+    .telaExcluirPortfolio{ 
+      margin: auto;
+      padding: 15px;
+      width: 100%;
+      text-align: center;
+      border-radius: 20px;
+      background: #fce4e4;
+    } 
+
+    .botoesTelaExcluirPortfolio{
+      margin-top: 5%;
+  
+      display: flex;
+      justify-content: center;
+      
+      }
+    
+      .btn-outline-secondary{
+        margin-right: 8%;
+        font-size: 130%;
+        width: 25%;  
+      }
+    
+      .btn-outline-danger{
+        font-size: 130%;
+        width: 25%;
+      }
+
+    @media (max-width: 990px) {
+
+  
+      .btn-outline-secondary{
+        width: 40%;
+        margin-right: 4%;
+      
+      }
+    
+      .btn-outline-danger{
+        width: 40%;
+      }
+      
+      .modal-content{
+       display: flex;
+       margin: auto;
+       margin-top: 50%;
+     }
+     
+       .conteudo{
+         width: 100%;
+       }
+         
+         
+         h1{
+         margin-top: 5%;
+         margin-bottom: 10%;
+       }
+     
+       .btn-outline-dark{
+         width: 70%;
+         }
+     
+         .modal-dialog{
+           margin-top: 35%;
+       
+         }
+       
+       }
+  
