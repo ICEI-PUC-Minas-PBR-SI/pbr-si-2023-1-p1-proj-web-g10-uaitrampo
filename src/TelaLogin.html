@@ -66,8 +66,9 @@
           }
 } */
         
-function validarFormulario(event) {
-  event.preventDefault(); // Impede o envio padrão do formulário
+function validarFormulario() {
+
+  var login= document.getElementById ('email').value;
 
   const emailInput = document.getElementById('email');
   const email = emailInput.value;
