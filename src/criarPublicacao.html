@@ -135,13 +135,6 @@
                                     />
                                 </div>
                             </form>
-                            <div
-                                class="d-flex justify-content-center mobile-spacing"
-                            >
-                                <button class="botaoPublicar">
-                                    Clique para publicar
-                                </button>
-                            </div>
                         </div>
                     </div>
                 </nav>
@@ -151,11 +144,16 @@
                 <h3>Escreva brevemente sobre o que procura:</h3>
             </div>
 
-            <div class="info">
-                <input type="text" />
-            </div>
+            <form id="cadastroForm">
+                <div class="info">
+                    <input
+                        placeholder="Descreva o que desejar"
+                        id="infoPublicacao"
+                        type="text"
+                    />
+                </div>
 
-            <div class="opcao">
+                <!-- <div class="opcao">
                 <h3>Você quer contratar ou ser contratado?</h3>
             </div>
 
@@ -164,29 +162,39 @@
                 <label for="">Contratar</label>
                 <input type="checkbox" name="" id="" />
                 <label for=""> Ser contratado</label>
-            </div>
+            </div> -->
 
-            <div class="contato">
-                <h3>
-                    Adicone duas formas que interessados possam entrar em
-                    contato
-                </h3>
-            </div>
+                <div class="contato">
+                    <h3>
+                        Adicone duas formas que interessados possam entrar em
+                        contato
+                    </h3>
+                </div>
 
-            <div class="numero">
-                <label for="">Tente colocar um número e um email </label>
-                <input type="text" /> <br />
-                <input type="text" />
-            </div>
-            <div class="opcional">
-                <label for="">Adicione suas redes sociais </label>
-                <input id="redes" type="text" placeholder="Instagram" /> <br />
-                <input id="redes" type="text" placeholder="Linkedin" />
-            </div>
+                <div class="numero">
+                    <label for="">Tente colocar um número e um email </label>
+                    <input
+                        id="numero"
+                        placeholder="Número para contato"
+                        type="text"
+                    />
+                    <br />
+                    <input id="email" placeholder="Email" type="text" />
+                </div>
+                <div class="opcional">
+                    <label for="">Adicione suas redes sociais </label>
+                    <input id="instagram" type="text" placeholder="Instagram" />
+                    <br />
+                    <input id="linkedin" type="text" placeholder="Linkedin" />
+                </div>
 
-            <div class="botao">
-                <button class="publicar" type="submit">publicar</button>
-            </div>
+                <div class="botao">
+                    <button class="publicar" type="submit">
+                        Criar publicação!
+                    </button>
+                </div>
+            </form>
         </div>
+        <script src="scripts/criarPublicacao.js"></script>
     </body>
 </html>
