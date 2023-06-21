@@ -1,146 +1,267 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>UaiTrampo</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <style>
+            @font-face {
+                font-family: SansSerifBldFLF;
+                src: url("SansSerifBldFLF.otf") format("opentype");
+            }
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>UaiTrampo</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <style>
-    @font-face {
-      font-family: SansSerifBldFLF;
-      src: url('SansSerifBldFLF.otf') format('opentype');
-    }
+            html,
+            body {
+                height: 100%;
+            }
+        </style>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+    </head>
 
-    html,
-    body {
-      height: 100%;
-    }
-  </style>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
+    <body style="height: 100vh">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<body style="height: 100vh;">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <sript src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right">
-    </script>
+        <div class="d-flex justify-content-between flex-column h-100">
+            <div class="header d-flex justify-content-end align-items-center">
+                <a
+                    href="telaLogin.html"
+                    class="text-light mr-2"
+                    style="cursor: pointer; padding-right: 10px"
+                >
+                    Deslogar
+                </a>
+            </div>
+            <header class="telaInicial">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img
+                                class="logoImg"
+                                src="assets/img/logo.png"
+                                alt="llogo"
+                            />
+                        </a>
+                        <button
+                            class="navbar-toggler collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarColor01"
+                            aria-controls="navbarColor01"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div
+                            class="navbar-collapse collapse"
+                            id="navbarColor01"
+                        >
+                            <ul
+                                class="navbar-nav me-auto mb-2 mb-lg-0"
+                                id="camposNavbar"
+                            >
+                                <li class="nav-item">
+                                    <a class="navButtons nav-link" href="#"
+                                        >Página inicial</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="navButtons nav-link"
+                                        href="perfil.html"
+                                        >Perfil</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="navButtons nav-link"
+                                        href="ajudaUaiTrampo.html"
+                                        >Suporte</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="navButtons nav-link"
+                                        href="minhasPublicacoes.html"
+                                        >Minhas publicações</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="navButtons nav-link"
+                                        href="profissionais.html"
+                                        >Profissionais</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="navButtons nav-link"
+                                        href="contratantes.html"
+                                        >Contratantes</a
+                                    >
+                                </li>
+                            </ul>
+                            <form
+                                class="d-flex justify-content-center"
+                                role="search"
+                            >
+                                <div class="containerPesquisa">
+                                    <input type="text" class="inputPesquisa" />
+                                    <img
+                                        class="lupaImg"
+                                        src="assets/img/lupa.png"
+                                        alt="lupa pesquisa"
+                                    />
+                                </div>
+                            </form>
+                            <div
+                                class="d-flex justify-content-center mobile-spacing"
+                            >
+                                <button class="botaoPublicar">
+                                    Clique para publicar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
 
-    <div class="d-flex justify-content-between flex-column h-100">
-      <div class="header d-flex justify-content-end align-items-center">
-        <a href="telaLogin.html" class="text-light mr-2" style="cursor: pointer; padding-right: 10px;">
-          Deslogar
-        </a>
-      </div>
-      <header class="telaInicial">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img class="logoImg" src="assets/img/logo.png" alt="llogo" />
-            </a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse" id="navbarColor01">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="camposNavbar">
-                <li class="nav-item">
-                  <a class="navButtons nav-link" href="#">Página inicial</a>
-                </li>
-                <li class="nav-item">
-                  <a class="navButtons nav-link" href="perfil.html">Perfil</a>
-                </li>
-                <li class="nav-item">
-                  <a class="navButtons nav-link" href="ajudaUaiTrampo.html">Suporte</a>
-                </li>
-                <li class="nav-item">
-                  <a class="navButtons nav-link" href="minhasPublicacoes.html">Minhas publicações</a>
-                </li>
-                <li class="nav-item">
-                  <a class="navButtons nav-link" href="profissionais.html">Profissionais</a>
-                </li>
-                <li class="nav-item">
-                  <a class="navButtons nav-link" href="contratantes.html">Contratantes</a>
-                </li>
-              </ul>
-              <form class="d-flex justify-content-center" role="search">
-                <div class="containerPesquisa ">
-                  <input type="text" class="inputPesquisa" />
-                  <img class="lupaImg" src="assets/img/lupa.png" alt="lupa pesquisa" />
+            <main class="w-100 h-100 d-flex justify-content-center">
+                <div
+                    class="col-md-9 d-flex justify-content-center w-100 align-items-center"
+                >
+                    <div
+                        id="carouselDestaque"
+                        class="carousel slide w-100"
+                        data-ride="carousel"
+                    >
+                        <ol class="carousel-indicators">
+                            <li
+                                data-target="#carouselDestaque"
+                                data-slide-to="0"
+                                class="active"
+                            ></li>
+                            <li
+                                data-target="#carouselDestaque"
+                                data-slide-to="1"
+                            ></li>
+                            <li
+                                data-target="#carouselDestaque"
+                                data-slide-to="2"
+                            ></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <h2
+                                class="textPrimary d-flex justify-content-center align-items-center mt-2 p-2"
+                            >
+                                Produtos em destaque
+                            </h2>
+
+                            <div class="carousel-item active">
+                                <img
+                                    class="d-block w-100"
+                                    src="assets/img/carrouselImg1.png"
+                                    style="
+                                        height: 250px;
+                                        width: 250px;
+                                        object-fit: contain;
+                                    "
+                                    alt="imagem marketing 1"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    class="d-block w-100"
+                                    src="assets/img/carrouselImg2.png"
+                                    style="
+                                        height: 250px;
+                                        width: 250px;
+                                        object-fit: contain;
+                                    "
+                                    alt="imagem marketing 2"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    class="d-block w-100"
+                                    src="assets/img/carrouselImg3.png"
+                                    style="
+                                        height: 250px;
+                                        width: 250px;
+                                        object-fit: contain;
+                                    "
+                                    alt="imagem marketing 3"
+                                />
+                            </div>
+                        </div>
+                        <a
+                            class="carousel-control-prev"
+                            href="#carouselDestaque"
+                            role="button"
+                            data-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon text-secondary"
+                                aria-hidden="true"
+                            ></span>
+                        </a>
+                        <a
+                            class="carousel-control-next"
+                            href="#carouselDestaque"
+                            role="button"
+                            data-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon text-secondary"
+                                aria-hidden="true"
+                            ></span>
+                        </a>
+                    </div>
                 </div>
-              </form>
-              <div class="d-flex justify-content-center mobile-spacing">
+            </main>
 
-                <button class="botaoPublicar">
-                  Clique para publicar
-                </button>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </header>
-
-      <main class="w-100 h-100 d-flex justify-content-center">
-
-        <div class="col-md-9 d-flex justify-content-center w-100 align-items-center">
-          <div id="carouselDestaque" class="carousel slide w-100" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselDestaque" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselDestaque" data-slide-to="1"></li>
-              <li data-target="#carouselDestaque" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <h2 class="textPrimary d-flex justify-content-center align-items-center mt-2 p-2">Produtos em destaque
-              </h2>
-
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/carrouselImg1.png"
-                  style="height: 250px; width: 250px; object-fit: contain;" alt="imagem marketing 1" />
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/carrouselImg2.png"
-                  style="height: 250px; width: 250px; object-fit: contain;" alt="imagem marketing 2" />
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/carrouselImg3.png"
-                  style="height: 250px; width: 250px; object-fit: contain;" alt="imagem marketing 3" />
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselDestaque" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon text-secondary" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next" href="#carouselDestaque" role="button" data-slide="next">
-              <span class="carousel-control-next-icon text-secondary" aria-hidden="true"></span>
-            </a>
-          </div>
+            <footer
+                class="fixar-rodape mt-5 text-light text-center py-3"
+                style="background: #776ac5"
+            >
+                <div
+                    class="container d-flex justify-content-around align-items-center"
+                >
+                    <div class="d-flex flex-column">
+                        <h5>Sobre nós</h5>
+                        <span>Versão do aplicativo: 0.1</span>
+                        <span>Ano de produção: 2023</span>
+                        <span>Contatos: sac@uai.trampo.com</span>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h5>Links úteis</h5>
+                        <a class="text-light" href="#">Página inicial</a>
+                        <a class="text-light" href="perfil.html">Perfil</a>
+                        <a class="text-light" href="minhasPublicacoes.html"
+                            >Minhas publicações</a
+                        >
+                    </div>
+                </div>
+            </footer>
         </div>
-      </main>
-
-      <footer class="fixar-rodape mt-5 text-light text-center py-3" style="background: #776AC5">
-        <div class="container d-flex justify-content-around align-items-center">
-          <div class="d-flex flex-column">
-            <h5>Sobre nós</h5>
-            <span>Versão do aplicativo: 0.1</span>
-            <span>Ano de produção: 2023</span>
-            <span>Contatos: sac@uai.trampo.com</span>
-          </div>
-          <div class="d-flex flex-column">
-            <h5>Links úteis</h5>
-            <a class="text-light" href="#">Página inicial</a>
-            <a class="text-light" href="perfil.html">Perfil</a>
-            <a class="text-light" href="minhasPublicacoes.html">Minhas publicações</a>
-          </div>
-        </div>
-      </footer>
-    </div>
-</body>
-
+    </body>
 </html>
