@@ -8,10 +8,10 @@ if (dadosArmazenados) {
   var dadosObjeto = JSON.parse(dadosArmazenados);
 
   // Exibindo os dados na página
-  var elemento = document.getElementById('meuElemento');
+  var elemento = document.getElementById('cadastroForm');
   elemento.textContent = dadosObjeto.nome; // Supondo que o objeto tenha uma propriedade 'nome'
 } else {
   // Se não houver dados armazenados, exiba uma mensagem alternativa
-  var elemento = document.getElementById('meuElemento');
+  var elemento = document.getElementById('cadastroForm');
   elemento.textContent = 'Nenhum dado armazenado na localStorage.';
 }
