@@ -42,13 +42,19 @@
 
         <div class="d-flex justify-content-between flex-column h-100">
             <div class="header d-flex justify-content-end align-items-center">
-                <a
-                    href="telaLogin.html"
+                <button
+                    type="button"
+                    onclick="removerUsuariosLogados()"
                     class="text-light mr-2"
-                    style="cursor: pointer; padding-right: 10px"
+                    style="
+                        cursor: pointer;
+                        padding-right: 10px;
+                        border: none;
+                        background: none;
+                    "
                 >
                     Deslogar
-                </a>
+                </button>
             </div>
             <header class="telaInicial">
                 <nav class="navbar navbar-expand-lg">
@@ -195,6 +201,13 @@
                 </div>
             </form>
         </div>
+        <script>
+            function removerUsuariosLogados() {
+                // Remove a chave "usuarios" do localStorage
+                localStorage.removeItem("usuarioLogado");
+                window.location.href = "TelaLogin.html";
+            }
+        </script>
         <script src="scripts/criarPublicacao.js"></script>
     </body>
 </html>
