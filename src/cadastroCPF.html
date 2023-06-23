@@ -86,6 +86,7 @@
                             id="radioContratar"
                             name="contratacao"
                             value="contratar"
+                            required
                         />
                         Contratar
                     </label>
@@ -118,42 +119,6 @@
             </div>
         </form>
 
-        <script>
-            function TestaCPF() {
-                var strCPF = document.getElementById("placeholder-txt").value;
-                var Soma;
-                var Resto;
-                var result = true;
-                Soma = 0;
-                if (strCPF == "00000000000") result = false;
-
-                for (i = 1; i <= 9; i++)
-                    Soma =
-                        Soma + parseInt(strCPF.substring(i - 1, i)) * (11 - i);
-                Resto = (Soma * 10) % 11;
-
-                if (Resto == 10 || Resto == 11) {
-                    Resto = 0;
-                    result = true;
-                }
-                if (Resto != parseInt(strCPF.substring(9, 10))) result = false;
-
-                Soma = 0;
-                for (i = 1; i <= 10; i++)
-                    Soma =
-                        Soma + parseInt(strCPF.substring(i - 1, i)) * (12 - i);
-                Resto = (Soma * 10) % 11;
-
-                if (Resto == 10 || Resto == 11) {
-                    Resto = 0;
-                    result = true;
-                }
-                if (Resto != parseInt(strCPF.substring(10, 11))) result = false;
-
-                if (result != true) {
-                    alert("digite um cpf válido");
-                }
-            }
-        </script>
+        <script src="scripts/cadastro.js"></script>
     </body>
 </html>
