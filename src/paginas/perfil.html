@@ -18,7 +18,7 @@
         <style>
             @font-face {
                 font-family: SansSerifBldFLF;
-                src: url("SansSerifBldFLF.otf") format("opentype");
+                src: url("../SansSerifBldFLF.otf") format("opentype");
             }
         </style>
         <link
@@ -27,7 +27,7 @@
             integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
             crossorigin="anonymous"
         />
-        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="../styles/style.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body style="height: 100vh">
@@ -61,7 +61,7 @@
                     <a class="navbar-brand" href="#">
                         <img
                             class="logoImg"
-                            src="assets/img/logo.png"
+                            src="../assets/img/logo.png"
                             alt="llogo"
                         />
                     </a>
@@ -128,7 +128,7 @@
                                 <input type="text" class="inputPesquisa" />
                                 <img
                                     class="lupaImg"
-                                    src="assets/img/lupa.png"
+                                    src="../assets/img/lupa.png"
                                     alt="lupa pesquisa"
                                 />
                             </div>
@@ -147,7 +147,10 @@
 
         <main>
             <div class="profile">
-                <img src="assets/img/perfilsemfoto.jpg" alt="Foto do Perfil" />
+                <img
+                    src="../assets/img/perfilsemfoto.jpg"
+                    alt="Foto do Perfil"
+                />
                 <div class="botaoConfigurar">
                     <button
                         type="button"
@@ -443,7 +446,7 @@
             function removerUsuariosLogados() {
                 // Remove a chave "usuarios" do localStorage
                 localStorage.removeItem("usuarioLogado");
-                window.location.href = "TelaLogin.html";
+                window.location.href = "telaLogin.html";
             }
         </script>
     </body>

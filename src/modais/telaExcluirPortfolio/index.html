@@ -18,7 +18,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <sript src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" />
 
   </head>
   
@@ -75,34 +75,32 @@
       </header>
       
     </div>
-
-     <!-- Button trigger modal -->
+      
+      <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Clique pra abrir tela "senhas nao coincidem"
+  Clique pra abrir tela "excluir portfolio"
 </button>
 
 <!-- Modal -->
-<div class="modal fade" data-bs-backdrop="static" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content" style="width: 80% ; border-radius: 20px;">
-    <div class="conteudo">
-      <div class="telaSenhasNaoCoincidem">
+      <div class="conteudo">
+        <div class="telaExcluirPortfolio">
 
-        <h1> <b> Senhas não coincidem!</b> </h1>
-          <div class="botaoTentarNovamente">
-            <button type="submit" data-bs-dismiss="modal" class="btn btn-outline-dark">Tentar Novamente</button>
+          <h1> <b> Deseja mesmo excluir seu portfólio? </b> </h1>
+          <h4> Você poderá adicionar outro após essa ação. </h4>
+
+          <div class="botoesTelaExcluirPortfolio">
+            <button type="button" data-bs-dismiss="modal" class="btn btn-outline-secondary">Voltar</button>
+            <button type="button" class="btn btn-outline-danger">Excluir</button>
           </div>
-      
-
-      </div>
-    </div>
-  </div>
+        </div>
       </div>
     </div>
   </div>
 </div>  
 
-      
   </body>
 </html>
 

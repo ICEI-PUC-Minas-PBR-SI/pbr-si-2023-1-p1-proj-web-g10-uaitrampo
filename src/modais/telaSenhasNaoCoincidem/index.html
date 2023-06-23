@@ -18,9 +18,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <sript src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" />
 
   </head>
+  
   <body>
       
       <header class="telaInicial">
@@ -74,37 +75,34 @@
       </header>
       
     </div>
-    
-    <!-- Button trigger modal -->
+
+     <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Clique pra abrir tela "tudo certo"
+  Clique pra abrir tela "senhas nao coincidem"
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade" data-bs-backdrop="static" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content" style="width: 80% ; border-radius: 20px;">
-      <div class="conteudo">
-        <div class="telaTudoCerto">
-          <div>
+    <div class="conteudo">
+      <div class="telaSenhasNaoCoincidem">
 
-            <h1> <b> Tudo certo! </b> </h1>
-            <div class="botaoLogar">
-              <a href="#" class="btn btn-outline-dark">Logar </a> 
-            </div>
-          
+        <h1> <b> Senhas não coincidem!</b> </h1>
+          <div class="botaoTentarNovamente">
+            <button type="submit" data-bs-dismiss="modal" class="btn btn-outline-dark">Tentar Novamente</button>
           </div>
-        </div>
+      
+
+      </div>
+    </div>
+  </div>
       </div>
     </div>
   </div>
 </div>  
 
-
-<!--                  
-  
--->
-
+      
   </body>
 </html>
 
