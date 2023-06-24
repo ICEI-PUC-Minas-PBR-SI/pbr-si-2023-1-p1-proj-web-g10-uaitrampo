@@ -9,7 +9,8 @@ if (dadosArmazenados) {
 
   // Exibindo os dados na página
   var elemento = document.getElementById('cadastroForm');
-  elemento.textContent = dadosObjeto.nome; // Supondo que o objeto tenha uma propriedade 'nome'
+  elemento.textContent = dadosObjeto.infoPublicacao
+  ; // Supondo que o objeto tenha uma propriedade 'nome'
 } else {
   // Se não houver dados armazenados, exiba uma mensagem alternativa
   var elemento = document.getElementById('cadastroForm');
