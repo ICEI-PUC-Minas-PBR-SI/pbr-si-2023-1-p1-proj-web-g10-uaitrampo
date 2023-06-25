@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cadasto com CNPJ</title>
+  <link href="../styles/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="CPF.css">
+  <link rel="stylesheet" href="../styles/cadastroCNPJ.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <style>
+    @font-face {
+      font-family: SansSerifBldFLF;
+      src: url('SansSerifBldFLF.otf') format ('opentype');
+    }
+  </style>
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <sript src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right">
+    </script>
+
+
+    <header class="telaInicial">
+      <div class="roxo" id="espacoRoxoHeader"></div>
+    </header>
+
+
+    <div class="cadastro">
+      <h1>Cadastre-se</h1>
+      <h3> Você possui CNPJ?</h3>
+      <P> Atenção: não será possivel alterar esse campo depois</P>
+
+      <div class="checkout">
+
+        <input type="checkbox"> Sim
+        <input type="checkbox"> Não
+      </div>
+
+    </div>
+
+
+    <main class="cadastroInfor">
+
+      <div class="input1">
+        <input id="placeholder-txt" placeholder="Digite seu CNPJ" type="text"> <br>
+
+      </div>
+
+      <div class="input2">
+        <input id="placeholder-txt1" placeholder="Digite seu email" type="text"><br>
+
+      </div>
+
+      <div class="input3">
+        <input id="placeholder-txt2" placeholder="Crie uma senha" type="password">
+      </div>
+
+
+    </main>
+
+
+
+    <div class="selecao">
+      <p> Você quer contratar ou ser contratado? <br>
+        <span class="linha2"> (Você pode mudar depois ou selecionar os dois) </span>
+      </p>
+
+      <div class="opcao">
+        <input type="checkbox"> Contratar
+        <input type="checkbox"> Ser contratado
+      </div>
+
+      <div class="uso">
+        <button class="termos"> Termos de uso </button>
+      </div>
+
+      <div class="termoUso">
+        <input type="checkbox"> Li e concordo com os termos de uso acima
+      </div>
+
+
+      <button class="finalizar mb-4"><a href="index.html" onclick="TestaCNPJ()">Cadastrar</a> </button>
+    </div>
+
+
+
+
+    </div>
+
+
+    <script>
+      function TestaCNPJ() {
+        var strCPF= document.getElementById ('placeholder-txt').value;
+    var Soma;
+    var Resto;
+    var result = true;
+    Soma = 0;
+  if (strCPF == "00000000000") result= false;
+
+  for (i=1; i<=9; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (11 - i);
+  Resto = (Soma * 10) % 11;
+
+    if ((Resto == 10) || (Resto == 11))  { Resto = 0; result=  true;}
+    if (Resto != parseInt(strCPF.substring(9, 10)) ) result=  false;
+
+  Soma = 0;
+    for (i = 1; i <= 10; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (12 - i);
+    Resto = (Soma * 10) % 11;
+ 
+
+    if ((Resto == 10) || (Resto == 11))  {Resto = 0; ; result=  true;}
+    if (Resto != parseInt(strCPF.substring(10, 11) ) ) result=  false;
+    
+    if ( result != true){
+        
+            alert('digite um cnpj válido')
+          }
+
+      }    
+
+
+
+      
+
+        
+      </script>
+</body>
+
+</html>

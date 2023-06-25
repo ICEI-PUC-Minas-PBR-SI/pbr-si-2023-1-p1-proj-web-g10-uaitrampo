@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Cadasto com CPF</title>
+        <link href="../styles/style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="CPF.css" />
+        <link rel="stylesheet" href="../styles/cadastroCPF.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <style>
+            @font-face {
+                font-family: SansSerifBldFLF;
+                src: url("../SansSerifBldFLF.otf") format ("opentype");
+            }
+        </style>
+    </head>
+
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <header class="telaInicial">
+            <div class="roxo" id="espacoRoxoHeader"></div>
+        </header>
+
+        <div class="cadastro">
+            <h1>Cadastre-se</h1>
+            <!-- <h3> Você possui CNPJ?</h3>
+      <P> Atenção: não será possivel alterar esse campo depois</P>
+
+      <div class="checkout">
+
+        <input type="checkbox" required> Sim
+        <input type="checkbox" required> Não
+      </div> -->
+        </div>
+
+        <form id="cadastroForm">
+            <main class="cadastroInfor">
+                <div class="input1">
+                    <input
+                        id="cpf"
+                        placeholder="Digite seu CPF"
+                        type="text"
+                        required
+                    />
+                    <br />
+                </div>
+
+                <div class="input2">
+                    <input
+                        id="email"
+                        placeholder="Digite seu email"
+                        type="text"
+                        required
+                    /><br />
+                </div>
+
+                <div class="input3">
+                    <input
+                        id="senha"
+                        required
+                        placeholder="Crie uma senha"
+                        type="password"
+                    />
+                </div>
+            </main>
+
+            <div class="selecao">
+                <p>
+                    Você quer contratar ou ser contratado? <br />
+                    <span class="linha2">
+                        (Você pode mudar depois ou selecionar os dois)
+                    </span>
+                </p>
+
+                <div class="opcao">
+                    <label for="radioContratar">
+                        <input
+                            type="radio"
+                            id="radioContratar"
+                            name="contratacao"
+                            value="contratar"
+                            required
+                        />
+                        Contratar
+                    </label>
+                    <label for="radioContratado">
+                        <input
+                            type="radio"
+                            id="radioContratado"
+                            name="contratacao"
+                            value="contratado"
+                        />
+                        Ser Contratado
+                    </label>
+                </div>
+
+                <div class="uso">
+                    <button class="termos">Termos de uso</button>
+                </div>
+
+                <div class="termoUso">
+                    <input type="checkbox" required /> Li e concordo com os
+                    termos de uso acima
+                </div>
+
+                <!-- <button id="submitBtn" class="finalizar mb-4"><a    >Cadastrar</a> </button> -->
+            </div>
+            <div class="d-flex w-100 justify-content-center">
+                <button type="submit" class="finalizar mb-4">
+                    <a>Cadastrar</a>
+                </button>
+            </div>
+        </form>
+
+        <script src="../scripts/cadastro.js"></script>
+    </body>
+</html>
