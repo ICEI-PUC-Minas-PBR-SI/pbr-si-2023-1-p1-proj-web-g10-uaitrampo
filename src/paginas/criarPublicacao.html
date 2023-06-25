@@ -182,7 +182,7 @@
                     <input
                         id="numero"
                         placeholder="Número para contato"
-                        type="text"
+                        type="number"
                     />
                     <br />
                     <input id="email" placeholder="Email" type="text" />
@@ -202,6 +202,9 @@
             </form>
         </div>
         <script>
+            function redirecionarParaCriarPublicacao() {
+                window.location.href = "criarPublicacao.html";
+            }
             function removerUsuariosLogados() {
                 // Remove a chave "usuarios" do localStorage
                 localStorage.removeItem("usuarioLogado");

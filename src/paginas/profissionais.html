@@ -137,7 +137,10 @@
                             <div
                                 class="d-flex justify-content-center mobile-spacing"
                             >
-                                <button class="botaoPublicar">
+                                <button
+                                    onclick="redirecionarParaCriarPublicacao()"
+                                    class="botaoPublicar"
+                                >
                                     Clique para publicar
                                 </button>
                             </div>
@@ -277,6 +280,9 @@
             </footer>
         </div>
         <script>
+            function redirecionarParaCriarPublicacao() {
+                window.location.href = "criarPublicacao.html";
+            }
             function removerUsuariosLogados() {
                 // Remove a chave "usuarios" do localStorage
                 localStorage.removeItem("usuarioLogado");
