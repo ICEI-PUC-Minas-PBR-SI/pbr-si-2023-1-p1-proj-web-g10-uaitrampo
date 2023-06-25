@@ -39,6 +39,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="scripts/perfil.js"></script>
 
         <div class="header d-flex justify-content-end align-items-center">
             <button
@@ -175,13 +176,13 @@
                     <h3>
                         Nome
                         <h3>
-                            <input type="text" class="inputText" />
+                            <input type="text" id="nameUser" class="inputText" />
 
                             <div>
                                 <h3>
                                     Email cadastrado
                                     <h3>
-                                        <input type="text" class="inputText" />
+                                        <input type="text" id="emailUser" class="inputText" />
 
                                         <div>
                                             <h3>
@@ -189,6 +190,7 @@
                                                 <h3>
                                                     <input
                                                         type="text"
+                                                        id="sobreUser"
                                                         class="inputText"
                                                         style="height: 95px"
                                                     />
@@ -376,78 +378,68 @@
                                                     </div>
 
                                                     <footer
-                                                        class="fixar-rodape mt-5 text-light text-center py-3"
-                                                        style="
-                                                            background: #776ac5;
-                                                        "
-                                                    >
-                                                        <div
-                                                            class="container d-flex justify-content-around align-items-center"
-                                                        >
-                                                            <div
-                                                                class="d-flex flex-column"
-                                                            >
-                                                                <h5>
-                                                                    Sobre nós
-                                                                </h5>
-                                                                <span
-                                                                    >Versão do
-                                                                    aplicativo:
-                                                                    0.1</span
-                                                                >
-                                                                <span
-                                                                    >Ano de
-                                                                    produção:
-                                                                    2023</span
-                                                                >
-                                                                <span
-                                                                    >Contatos:
-                                                                    sac@uai.trampo.com</span
-                                                                >
-                                                            </div>
-                                                            <div
-                                                                class="d-flex flex-column"
-                                                            >
-                                                                <h5>
-                                                                    Links úteis
-                                                                </h5>
-                                                                <a
-                                                                    class="text-light"
-                                                                    href="index.html"
-                                                                    >Página
-                                                                    inicial</a
-                                                                >
-                                                                <a
-                                                                    class="text-light"
-                                                                    href="perfil.html"
-                                                                    >Perfil</a
-                                                                >
-                                                                <a
-                                                                    class="text-light"
-                                                                    href="minhasPublicacoes.html"
-                                                                    >Minhas
-                                                                    publicações</a
-                                                                >
-                                                            </div>
-                                                        </div>
-                                                    </footer>
-                                                </h3>
-                                            </h3>
-                                        </div>
-                                    </h3>
-                                </h3>
-                            </div>
-                        </h3>
-                    </h3>
+                class="fixar-rodape mt-5 text-light text-center py-3"
+                style="background: #776ac5"
+            >
+                <div
+                    class="container d-flex justify-content-around align-items-center"
+                >
+                    <div class="d-flex flex-column">
+                        <h5>Sobre nós</h5>
+                        <span>Versão do aplicativo: 0.1</span>
+                        <span>Ano de produção: 2023</span>
+                        <span>Contatos: sac@uai.trampo.com</span>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h5>Links úteis</h5>
+                        <a class="text-light" href="index.html"
+                            >Página inicial</a
+                        >
+                        <a class="text-light" href="perfil.html">Perfil</a>
+                        <a class="text-light" href="minhasPublicacoes.html"
+                            >Minhas publicações</a
+                        >
+                    </div>
                 </div>
+            </footer>
+             </h3>
+            </h3>
+            </div>
+            </h3>
+            </h3>
+           </div>
+          </h3>
+         </h3>
+         </div>
             </div>
         </main>
         <script>
+     document.addEventListener("DOMContentLoaded", function () { 
+        // Obtém os dados do usuário armazenados no localStorage      
+        const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));    
+        //alert(usuarioLogado[0].email);   
+        const nome = usuarioLogado[0].nome;
+        const email = usuarioLogado[0].email;
+        //const sobrevoce = usuarioLogado[0].sobrevoce;
+    
+        if(email /*&& nome && sobrevoce*/){
+            document.getElementById("nameUser").value = nome;
+            document.getElementById("emailUser").value = email;
+            //document.getElementById("sobreUser").value = sobrevoce;
+        }
+        else{
+            console.log("falha ao recuperar informações")
+        }
+        
+});
+
             function removerUsuariosLogados() {
                 // Remove a chave "usuarios" do localStorage
                 localStorage.removeItem("usuarioLogado");
                 window.location.href = "telaLogin.html";
             }
+
+    
         </script>
     </body>
 </html>
