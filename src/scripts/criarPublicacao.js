@@ -17,24 +17,34 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
+        const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
+
         const data = {
             infoPublicacao: infoPublicacao,
             numero: numero,
             email: email,
             instagram: instagram,
             linkedin: linkedin,
+            usuarioLogado: {
+                contratar: usuarioLogado.contratar,
+                cpf: usuarioLogado.cpf,
+                email: usuarioLogado.email,
+                logado: usuarioLogado.logado,
+                serContratado: usuarioLogado.serContratado,
+            },
         };
 
-        let cadastroData = localStorage.getItem("publicacoes");
+        
+        let publicacoes = localStorage.getItem("publicacoes");
 
-        if (cadastroData) {
-            cadastroData = JSON.parse(cadastroData);
+        if (publicacoes) {
+            publicacoes = JSON.parse(publicacoes);
         } else {
-            cadastroData = [];
+            publicacoes = [];
         }
 
-        cadastroData.push(data);
-        localStorage.setItem("publicacoes", JSON.stringify(cadastroData));
+        publicacoes.push(data);
+        localStorage.setItem("publicacoes", JSON.stringify(publicacoes));
 
         alert("Publicação criada com sucesso!");
 

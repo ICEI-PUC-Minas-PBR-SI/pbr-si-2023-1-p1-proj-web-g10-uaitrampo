@@ -452,3 +452,26 @@ h2 {
         margin-top: 35%;
     }
 }
+
+
+.informacoes img{
+    margin-right: 10px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    background-color: #ac8ef0;
+    font-family: "SansSerifFLF";
+    text-align: left;
+    color: #000000;
+    height: 280px;
+    width: 900px;
+    margin-bottom: 10px;
+}
