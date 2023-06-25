@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     form.addEventListener("submit", function (event) {
         event.preventDefault();
 
+        const nomeInput = document.querySelector("#nome");
         const cpfInput = document.querySelector("#cpf");
         const emailInput = document.querySelector("#email");
         const senhaInput = document.querySelector("#senha");
@@ -15,13 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const serContratadoCheckbox =
             document.querySelector("#radioContratado");
 
+        const nome = nomeInput.value.trim();
         const cpf = cpfInput.value.trim();
         const email = emailInput.value.trim();
         const senha = senhaInput.value.trim();
         const contratar = contratarCheckbox.checked;
         const serContratado = serContratadoCheckbox.checked;
 
-        if (!cpf || !email || !senha) {
+        if (!cpf || !email || !senha || !nome) {
             alert("Por favor, preencha todos os campos obrigatórios.");
             return;
         }
@@ -39,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         const data = {
+            nome: nome,
             cpf: cpf,
             email: email,
             senha: senha,
