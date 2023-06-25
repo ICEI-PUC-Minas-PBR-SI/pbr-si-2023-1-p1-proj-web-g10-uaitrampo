@@ -61,3 +61,7 @@ Mariana Dias
 - Tela de recuperação de senha
 - Tela para verificação do código 
 - Tela de criar publicação
+- Adicionando a funcionalidade na tela principal, trazendo as publicações que o usuário realizou na tela Minhas Publicações e mostrando na tela principal.
+- Realização de validação do campo e-mail na tela de login.
+- Realização de validação do campo cpf  na tela de cadastro por cpf.
+- Realização de validação do campo cnpj na tela de cadastro por cnpj.
