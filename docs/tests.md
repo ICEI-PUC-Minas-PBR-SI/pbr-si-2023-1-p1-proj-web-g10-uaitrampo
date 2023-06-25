@@ -1,9 +1,18 @@
 # Plano de Testes de Software
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+| Item | Condições  |Resultado esperado               | Resultado Obtido  |
+|--------------------|------------------------------------|----------------------------------------|------------------------------------|
+| [1]Teste de Cadastro  | *Entradas do Cadastro:* CPF 224.605.740-02, Email: teste@gmail.com, Senha: 123, Checkbox marcado: Contratar, Checkbox marcado: "Li e concordo com os termos de uso acima" | Alert com mensagem: Cadastro realizado com sucesso! | Alert com mensagem: Cadastro realizado com sucesso! |
+| [2]Teste de Cadastro com CPF repetido  | *Entradas do Cadastro:* CPF 224.605.740-02, Email: testedois@gmail.com, Senha: 123, Checkbox marcado: Ser Contratado, Checkbox marcado: "Li e concordo com os termos de uso acima" | Alert com mensagem: Este CPF já está cadastrado. Por favor, insira outro CPF. | Alert com mensagem: Este CPF já está cadastrado. Por favor, insira outro CPF. |
+| [3]Teste de Cadastro com email inválido  | *Entradas do Cadastro:* CPF 769.845.270-07, Email: @gmail.com, Senha: 123, Checkbox marcado: Ser Contratado, Checkbox marcado: "Li e concordo com os termos de uso acima" | Alert com mensagem: Por favor, insira um email válido. | Alert com mensagem: Por favor, insira um email válido. |
+| [4]Teste de Cadastro com email repetido  | *Entradas do Cadastro:* CPF 022.665.390-00, Email: teste@gmail.com, Senha: 123, Checkbox marcado: Ser Contratado, Checkbox marcado: "Li e concordo com os termos de uso acima" | Alert com mensagem: Este email já está cadastrado. Por favor, insira outro email. | Alert com mensagem: Este email já está cadastrado. Por favor, insira outro email. |
+| [5]Teste de Login com dados cadastrados | *Entradas do Login:* Email: teste@gmail.com, Senha: 123 | Alert com mensagem: Login realizado com sucesso! | Alert com mensagem: Login realizado com sucesso! |
+| [6]Teste de Login com dados incorretos | *Entradas do Login:* Email: a@gmail.com, Senha: adsjd | Alert com mensagem: Email ou senha incorretos. Por favor, tente novamente. | Alert com mensagem: Email ou senha incorretos. Por favor, tente novamente. | 
+| [7]Teste de deslogar | Clique no botão "Deslogar" | Redirecionamento para tela de login | Redirecionamento para tela de login | 
+| [8]Teste de criar publicação | *Entradas da publicação:* Descrição: Gostaria de um serviço de marketing digital que..., Número para contato: 31994252304, Email para contato: teste@gmail.com, Instagram: teste, Linkedin: Teste_ | Alert com mensagem: Publicação criada com sucesso! |  Alert com mensagem: Publicação criada com sucesso! | 
+| [9]Teste de criar publicação sem descrição | *Entradas da publicação:* Descrição: , Número para contato: 31994252304, Email para contato: teste@gmail.com, Instagram: teste, Linkedin: Teste_  | Alert com mensagem: Por favor, insira uma descrição sobre o que procura | Alert com mensagem: Por favor, insira uma descrição sobre o que procura |
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
+
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.

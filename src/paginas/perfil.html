@@ -137,7 +137,10 @@
                         <div
                             class="d-flex justify-content-center mobile-spacing"
                         >
-                            <button class="botaoPublicar">
+                            <button
+                                onclick="redirecionarParaCriarPublicacao()"
+                                class="botaoPublicar"
+                            >
                                 Clique para publicar
                             </button>
                         </div>
@@ -414,6 +417,7 @@
             </div>
         </main>
         <script>
+<<<<<<< HEAD
      document.addEventListener("DOMContentLoaded", function () { 
         // Obtém os dados do usuário armazenados no localStorage      
         const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));    
@@ -433,6 +437,11 @@
         
 });
 
+=======
+            function redirecionarParaCriarPublicacao() {
+                window.location.href = "criarPublicacao.html";
+            }
+>>>>>>> c00a8ac0c6ef3aca6e9b6c0ecd71e3133c945f3e
             function removerUsuariosLogados() {
                 // Remove a chave "usuarios" do localStorage
                 localStorage.removeItem("usuarioLogado");
