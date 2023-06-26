@@ -53,10 +53,10 @@ Lucas Felipe
 - Implementação da modal "Como funciona?"
 - Criação da lógica de validação da tela de recuperar senha
 
-Maria Heloísa
+Maria Heloisa
 - Ideias para formular os requisitos funcionais e não funcionais
 - Criação da tela de perfil
-
+- Adicionando funcionalidade de coletar os dados do cadastro e salvar no perfil
 Mariana Dias
 - Resumo do projeto
 - Definição de requisitos funcionais e não-funcionais
