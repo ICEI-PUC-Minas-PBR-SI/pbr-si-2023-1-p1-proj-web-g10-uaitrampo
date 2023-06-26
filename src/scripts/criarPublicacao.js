@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.querySelector("#cadastroForm");
+    console.log("chamou");
 
     form.addEventListener("submit", function (event) {
         event.preventDefault();
@@ -26,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
             instagram: instagram,
             linkedin: linkedin,
             usuarioLogado: {
-                contratar: usuarioLogado.contratar,
                 cpf: usuarioLogado.cpf,
                 email: usuarioLogado.email,
                 logado: usuarioLogado.logado,

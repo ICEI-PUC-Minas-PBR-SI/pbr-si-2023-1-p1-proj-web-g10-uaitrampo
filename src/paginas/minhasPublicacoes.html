@@ -86,7 +86,7 @@
                                 <li class="nav-item">
                                     <a
                                         class="navButtons nav-link"
-                                        href="../index.html"
+                                        href="../paginas/telaPrincipal.html"
                                         >Página inicial</a
                                     >
                                 </li>
@@ -243,7 +243,11 @@
             function removerUsuariosLogados() {
                 // Remove a chave "usuarios" do localStorage
                 localStorage.removeItem("usuarioLogado");
-                window.location.href = "telaLogin.html";
+            }
+            function removerUsuariosLogados() {
+                // Remove a chave "usuarios" do localStorage
+                localStorage.removeItem("usuarioLogado");
+                window.location.href = "../index.html";
             }
         </script>
 

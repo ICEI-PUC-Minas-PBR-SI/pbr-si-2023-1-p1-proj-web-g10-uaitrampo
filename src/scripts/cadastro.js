@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         alert("Cadastro realizado com sucesso!");
         // Redireciona para tela de login
-        window.location.href = "telaLogin.html";
+        window.location.href = "../index.html";
     });
 });
 

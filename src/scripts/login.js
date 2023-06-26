@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Login realizado com sucesso!");
 
             // Redireciona para a página inicial (index.html)
-            window.location.href = "index.html";
+            window.location.href = "paginas/telaPrincipal.html";
         } else {
             // Credenciais inválidas
             alert("Email ou senha incorretos. Por favor, tente novamente.");
