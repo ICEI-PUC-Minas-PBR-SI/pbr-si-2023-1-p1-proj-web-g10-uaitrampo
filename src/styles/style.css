@@ -454,7 +454,7 @@ h2 {
 }
 
 
-.informacoes img{
+.mPublicacoes img{
     margin-right: 10px;
     width: 80px;
     display: flex;
@@ -462,7 +462,7 @@ h2 {
     align-items: center;
 }
 
-.informacoes{
+.mPublicacoes{
     display: flex;
     justify-content: center;
     align-items: center; 
