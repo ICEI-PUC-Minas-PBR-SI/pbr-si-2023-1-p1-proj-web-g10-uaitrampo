@@ -1,0 +1,178 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 45px !important;
+  background: #776AC5;
+}
+
+.navBarSearch {
+  display: flex;
+  position: relative;
+  justify-content: end;
+  align-items: center;
+}
+
+.searchIcon {
+  position: absolute;
+  margin-right: 5px;
+}
+
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.containerNavButtons {
+  gap: 25px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.navButtons {
+  font-family: 'SansSerifBldFLF';
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: center;
+  color: #4174B4 !important;
+}
+
+.textPrimary {
+  font-family: 'SansSerifBldFLF';
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: center;
+  color: #4174B4 !important;
+}
+
+.textSecondary {
+  font-family: 'SansSerifFLF';
+  font-weight:600;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000 !important;
+}
+
+.containerPesquisa {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-right: 15px;
+  
+}
+.lupaImg {
+  position: absolute;
+  margin-left: 8px;
+}
+
+.inputPesquisa {
+box-sizing: border-box;
+width: 330px;
+height: 40px;
+border: 3px solid #4174B4;
+border-radius: 24px;
+}
+
+.botaoPublicar {
+width: 200px;
+height: 40px;
+border: none;
+background: #776AC4;
+border-radius: 24px;
+font-family: 'SansSerifFLF';
+font-style: normal;
+font-weight: 550;
+font-size: 16px;
+color: #FFFFFF;
+
+}
+
+/* Essa estilização é a certa pro modo de exibição como página inteira 
+
+.conteudo{
+  font-family: 'SansSerifBldFLF';
+  display: flex;
+  margin-top: 4%;
+}
+
+*/
+.conteudo{
+  font-family: 'SansSerifBldFLF';
+width: 100%; 
+margin-top: 50%; 
+display: flex; 
+margin: auto; 
+justify-content: center;
+}
+
+
+.telaTudoCerto{ 
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  background: #c8ecdc;
+}
+
+
+h1{
+  margin-top: 4%;
+}
+
+.botaoLogar{
+  margin-top: 5% ;
+  margin-bottom: 5%;
+}
+
+.btn-outline-dark{
+  font-size: 130%;
+  width: 30%;
+  }
+
+.modal-dialog{
+  margin-top: 15%;
+
+  }
+
+@media (max-width: 990px) {
+  
+  .modal-content{
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+  }
+    
+  .telaTudoCerto{
+    width: 100%;
+  }
+    
+    h1{
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .botaoLogar{
+    margin-bottom: 5%;
+  }
+  
+  .btn-outline-dark{
+    font-size: 130%;
+    width: 50%;
+    }
+
+    .modal-dialog{
+      margin-top: 50%;
+  
+    }
+  
+  }

@@ -1,0 +1,207 @@
+
+
+.telaInicial {
+    background: #FFFFFF;
+    
+  }
+  #espacoRoxoHeader{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 65px;
+    background-color: #776AC5;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    background: #776AC5;
+  }
+  
+  .navBarSearch {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    margin-right: 5px;
+  }
+  
+  
+  .navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .containerNavButtons {
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .navButtons {
+    font-family: 'SansSerifBldFLF';
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: #4174B4 !important;
+  }
+  
+  
+  .containerPesquisa {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-right: 15px;
+    
+  }
+  .lupaImg {
+    position: absolute;
+    margin-left: 8px;
+  }
+  .inputPesquisa {
+    box-sizing: border-box;
+  
+  width: 330px;
+  height: 40px;
+  
+  
+  border: 3px solid #4174B4;
+  border-radius: 24px;
+  }
+  
+  .botaoPublicar {
+  width: 200px;
+  height: 40px;
+    border: none;
+  
+  background: #776AC4;
+  border-radius: 24px;
+  
+    font-family: 'SansSerifBldFLF';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  
+  color: #FFFFFF;
+  
+  }
+  
+  @media (max-width: 990px) {
+    .mobile-spacing {
+      margin-top: 8px;
+    }
+}
+  
+  
+  
+ .imagem{
+   
+    width: 369px;
+    height: 286px;
+ }
+
+ .img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+ }
+
+ .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: -90px;
+ }
+
+ #email{
+    background: linear-gradient(0deg, #E2EFFF, #E2EFFF), conic-gradient(from 180deg at 50% 50%, #4174B4 0deg, rgba(65, 116, 180, 0) 360deg), conic-gradient(from 180deg at 50% 50%, #4174B4 0deg, rgba(65, 116, 180, 0) 360deg), conic-gradient(from 180deg at 50% 50%, #4174B4 0deg, rgba(65, 116, 180, 0) 360deg);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 100px;
+ }
+
+ #email::placeholder{
+    font-family: 'SansSerifBldFLF';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1rem;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #000000;
+    
+ }
+
+ #senha{
+    background: linear-gradient(0deg, #E2EFFF, #E2EFFF), conic-gradient(from 180deg at 50% 50%, #4174B4 0deg, rgba(65, 116, 180, 0) 360deg), conic-gradient(from 180deg at 50% 50%, #4174B4 0deg, rgba(65, 116, 180, 0) 360deg), conic-gradient(from 180deg at 50% 50%, #4174B4 0deg, rgba(65, 116, 180, 0) 360deg);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 100px;
+ }
+
+ #senha::placeholder{
+    font-family: 'SansSerifBldFLF';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1rem;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #000000;
+    
+ }
+
+ .botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+ }
+ 
+ .logar{
+    border-color: rgb(189, 43, 189);
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    font-family: 'SansSerifFLF';
+    font-style: normal;
+    font-weight: 550;
+ }
+
+ .logar:hover{
+    background-color: rgb(162, 42, 162);
+    color: #FFFFFF;
+ }
+
+ .recuperar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+ }
+ 
+ .recuperar a{
+    text-decoration: none;
+    font-family: 'SansSerifBldFLF';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1rem;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #000000;
+ }
