@@ -48,6 +48,10 @@ Lucas Felipe
 - Criação da modal de senhas não coincidem 
 - Criação da modal tudo certo após recuperar senha
 - Criação da modal excluir publicação
+- Implementação da modal de adicionar PDF
+- Implementação da modal de excluir portfólio
+- Implementação da modal "Como funciona?"
+- Criação da lógica de validação da tela de recuperar senha
 
 Maria Heloísa
 - Ideias para formular os requisitos funcionais e não funcionais
