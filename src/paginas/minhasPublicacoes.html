@@ -183,30 +183,33 @@
                                 <div class="telaExcluirPublicacao">
                                     <h2>
                                         <b>
-                                            Deseja mesmo excluir sua
-                                            publicação?
+                                            Deseja mesmo excluir sua publicação?
                                         </b>
                                     </h2>
                                     <h3>Essa ação não tem volta.</h3>
-
-                                    <div
-                                        class="botoesTelaExcluirPublicacao"
-                                    >
-                                        <button
-                                            type="button"
-                                            data-bs-dismiss="modal"
-                                            class="btn btn-outline-secondary"
-                                        >
+                            
+                                    <div class="botoesTelaExcluirPublicacao">
+                                        <button type="button" data-bs-dismiss="modal" class="btn btn-outline-secondary">
                                             Voltar
                                         </button>
-                                        <button
-                                            type="button"
-                                            class="btn btn-outline-danger"
-                                        >
+                                        <button type="button" class="btn btn-outline-danger" id="btnExcluir" data-bs-dismiss="modal">
                                             Excluir
                                         </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            <script>
+                                document.getElementById("btnExcluir").addEventListener("click", function() {
+                                    var div = document.getElementsByClassName("mPublicacoes")[0];
+                                    div.remove();
+                                });
+                            </script>
+                                        
                             </div>
 
+                            
         </main>
 
 

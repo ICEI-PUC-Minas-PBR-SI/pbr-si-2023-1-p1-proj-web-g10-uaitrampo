@@ -1,5 +1,4 @@
 var mPublicacoes= document.querySelector(".mPublicacoes")
-
 // Obtendo os dados armazenados na localStorage
 var dadosArmazenados = localStorage.getItem('publicacoes');
 
@@ -14,6 +13,7 @@ if (dadosArmazenados) {
     //Container
     const div = document.createElement("div")
 
+    
     //pub
     const titulo = document.createElement("div")
     titulo.innerText = info.infoPublicacao
@@ -92,3 +92,4 @@ function ocultarDivInformacoes() {
   var mPublicacoes = document.querySelector('.mPublicacoes');
     mPublicacoes.style.display = 'none';
   }
+
