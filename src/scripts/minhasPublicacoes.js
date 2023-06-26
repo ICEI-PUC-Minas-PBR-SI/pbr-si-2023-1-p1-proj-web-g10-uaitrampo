@@ -9,7 +9,7 @@ if (dadosArmazenados) {
 
   // Convertendo os dados de volta para um objeto JavaScript (se necessário)
   var dadosObjeto = JSON.parse(dadosArmazenados);
-  
+
   dadosObjeto.map(info => {
     //Container
     const div = document.createElement("div")
@@ -51,7 +51,7 @@ div.appendChild(containerEmail);
 
      const spanLinkedin = document.createElement("span")
      spanLinkedin.innerText = info.linkedin
- 
+
      if (info.linkedin !== undefined) {
       spanLinkedin.innerText = "Linkedin: " + info.linkedin;
     }
@@ -60,9 +60,9 @@ div.appendChild(containerEmail);
      //telefone
      const containerTelefone = document.createElement("div")
      containerTelefone.classList.add("containerSocial")
-     
+
      const spanTelefone = document.createElement("span")
-     
+
 
      if (info.numero !== undefined) {
       spanTelefone.innerText = "Telefone: " + info.numero;
@@ -79,12 +79,16 @@ div.appendChild(containerEmail);
   // Exibindo os dados na página
   var elemento = document.getElementById('cadastroForm');
   elemento.textContent = dadosObjeto.infoPublicacao ;
-  
+
 
   // Supondo que o objeto tenha uma propriedade 'nome'
 } else {
   // Se não houver dados armazenados, exiba uma mensagem alternativa
   var elemento = document.getElementById('cadastroForm');
-
+  ocultarDivInformacoes();
   elemento.textContent = 'Nenhum dado armazenado na localStorage.';
 }
+function ocultarDivInformacoes() {
+  var mPublicacoes = document.querySelector('.mPublicacoes');
+    mPublicacoes.style.display = 'none';
+  }
