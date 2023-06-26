@@ -1,4 +1,4 @@
-var informacoes= document.querySelector(".informacoes")
+var mPublicacoes= document.querySelector(".mPublicacoes")
 
 // Obtendo os dados armazenados na localStorage
 var dadosArmazenados = localStorage.getItem('publicacoes');
@@ -71,7 +71,7 @@ div.appendChild(containerEmail);
      containerTelefone.appendChild(spanTelefone)
      div.appendChild(containerTelefone)
 
-    informacoes.appendChild(div)
+     mPublicacoes.appendChild(div)
 
     console.log("Contatos: /n"+info)
   })
@@ -85,11 +85,6 @@ div.appendChild(containerEmail);
 } else {
   // Se não houver dados armazenados, exiba uma mensagem alternativa
   var elemento = document.getElementById('cadastroForm');
-  ocultarDivInformacoes();
+
   elemento.textContent = 'Nenhum dado armazenado na localStorage.';
 }
-function ocultarDivInformacoes() {
-    var Informacoes = document.getElementById('informacoes');
-    informacoes.style.display = 'none';
-  }
-
