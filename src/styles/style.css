@@ -452,3 +452,30 @@ h2 {
         margin-top: 35%;
     }
 }
+
+#picture__input {
+    display: none;
+  }
+  
+  .pictureP {
+    width: 150px;
+    height: 150px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 2px dashed #aaa;
+  }
+  .profile img {
+    margin: 0 auto;
+  }
+  
+
+  .picture__img {
+    max-width: 100%;
+  }
