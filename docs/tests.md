@@ -12,6 +12,7 @@
 | [8]Teste de criar publicação | *Entradas da publicação:* Descrição: Gostaria de um serviço de marketing digital que..., Número para contato: 31994252304, Email para contato: teste@gmail.com, Instagram: teste, Linkedin: Teste_ | Alert com mensagem: Publicação criada com sucesso! |  Alert com mensagem: Publicação criada com sucesso! | 
 | [9]Teste de criar publicação sem descrição | *Entradas da publicação:* Descrição: , Número para contato: 31994252304, Email para contato: teste@gmail.com, Instagram: teste, Linkedin: Teste_  | Alert com mensagem: Por favor, insira uma descrição sobre o que procura | Alert com mensagem: Por favor, insira uma descrição sobre o que procura |
 | [10]Teste tela principal sem descrição | Caso o usuário tenha realizado uma publicação na tela de criar publicação, deverá ser mostrada a mesma na tela inicial  | Mostrar as publicações, contendo: O que o usuário está procurando, seu Instagram,linkedin,email e número | Publicações realizadas pelos usuários, contendo seu Instagram,linkedin,email e número |
+| [11]Teste tela recuperar senha | Código inserido válido e código inválido  | Abertura de modal com o resultado da validação | Alert com mensagem do resultado da validação, porém sem aparecimento das modais |
 
 ## Ferramentas de Testes (Opcional)
 
