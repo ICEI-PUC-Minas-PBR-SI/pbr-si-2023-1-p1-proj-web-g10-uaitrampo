@@ -424,7 +424,7 @@ h2 {
 
 .btn-outline-dark {
     font-size: 130%;
-    width: 40%;
+    width: 60%;
 }
 
 .telaExcluirPortfolio {
@@ -438,7 +438,6 @@ h2 {
 
 .botoesTelaExcluirPortfolio {
     margin-top: 5%;
-
     display: flex;
     justify-content: center;
 }
@@ -446,12 +445,12 @@ h2 {
 .btn-outline-secondary {
     margin-right: 8%;
     font-size: 130%;
-    width: 25%;
+    width: 40%;
 }
 
 .btn-outline-danger {
     font-size: 130%;
-    width: 25%;
+    width: 40%;
 }
 
 @media (max-width: 990px) {
