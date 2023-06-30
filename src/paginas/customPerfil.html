@@ -143,91 +143,64 @@
                     <span class="picture__image"></span>
                 </label>
                 <input type="file" name="picture__input" id="picture__input" />
-
-                <div class="d-flex justify-content-end m-3 mt-5">
-                    <a href="perfil.html"
-                        ><i
-                            class="fa-solid fa-check fa-lg mr-5"
-                            type="button"
-                            style="color: #11d111"
-                        >
-                            Salvar</i
-                        ></a
-                    >
-                </div>
             </div>
         </div>
 
         <div class="Profile-info">
             <div class="mt-4 mx-5 justify-content-center">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"
-                        >Nome</label
-                    >
-                    <h4
-                        class="form-control"
-                        id="nomeedit"
-                        contenteditable="true"
-                    ></h4>
+                <form id="editarPerfil" class="login">
+                    <!-- <input id="email" type="text" placeholder="Email:" />
+                    <input id="senha" type="password" placeholder="Senha:" />
+                    <div class="botao">
+                        <button type="submit" class="logar">Logar</button>
+                    </div> -->
 
-                    <script>
-                        if (localStorage.getItem("nome")) {
-                            document.getElementById("nomeedit").textContent =
-                                localStorage.getItem("nome");
-                        }
+                    <div class="mb-3">
+                        <label class="form-label">Nome</label>
+                        <input
+                            class="form-control"
+                            id="nome"
+                            contenteditable="true"
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Sobre você</label>
+                        <input
+                            class="form-control"
+                            id="sobreVoce"
+                            contenteditable="true"
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" />
+                    </div>
 
-                        document
-                            .getElementById("nomeedit")
-                            .addEventListener("input", function () {
-                                localStorage.setItem("nome", this.textContent);
-                            });
-                    </script>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label"
-                        >Sobre você</label
-                    >
-                    <h4
-                        class="form-control"
-                        id="sobreedit"
-                        contenteditable="true"
-                    ></h4>
-
-                    <script>
-                        if (localStorage.getItem("sobre")) {
-                            document.getElementById("sobreedit").textContent =
-                                localStorage.getItem("sobre");
-                        }
-
-                        document
-                            .getElementById("sobreedit")
-                            .addEventListener("input", function () {
-                                localStorage.setItem("sobre", this.textContent);
-                            });
-                    </script>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"
-                        >E-mail</label
-                    >
-                    <input
-                        type="email"
-                        class="form-control"
-                        id="exampleFormControlInput1"
-                        placeholder="Para alterar seu e-mail entre em contato com o suporte"
-                    />
-                </div>
+                    <button type="submit" class="btn btn-outline-primary">
+                        Salvar
+                    </button>
+                </form>
             </div>
-            <div class="d-flex w-100 h-100 justify-content-center mt-4">
+            <!-- <div class="d-flex w-100 h-100 justify-content-center mt-4">
                 <button type="button" class="btn btn-outline-primary btn-lg">
                     TROCAR SENHA
                 </button>
-            </div>
+            </div> -->
         </div>
     </main>
     <script
         src="https://kit.fontawesome.com/b50fe47334.js"
         crossorigin="anonymous"
     ></script>
+    <script>
+        function redirecionarParaCriarPublicacao() {
+            window.location.href = "criarPublicacao.html";
+        }
+        function removerUsuariosLogados() {
+            // Remove a chave "usuarios" do localStorage
+            localStorage.removeItem("usuarioLogado");
+            window.location.href = "../index.html";
+        }
+    </script>
     <script src="../scripts/customPerfil.js"></script>
 </html>
