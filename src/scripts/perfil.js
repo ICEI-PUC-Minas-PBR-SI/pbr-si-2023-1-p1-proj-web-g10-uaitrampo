@@ -37,6 +37,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
     excluirBtn.addEventListener("click", limparPortfolio);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    function preencherCampos(usuario) {
+        const nomeInput = document.getElementById("nome");
+        const emailInput = document.getElementById("email");
+        const sobreVoceInput = document.getElementById("sobreVoce");
+
+        nomeInput.value = usuario.nome;
+        emailInput.value = usuario.email;
+        sobreVoceInput.value = usuario.sobreVoce;
+    }
+
+    const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
+
+    preencherCampos(usuarioLogado);
+});
 document.addEventListener("DOMContentLoaded", function () {
     // const form = document.querySelector("#login"); //TODO
     // form.addEventListener("submit", function (event) {
