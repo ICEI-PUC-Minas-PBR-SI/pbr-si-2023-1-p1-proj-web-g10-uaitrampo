@@ -427,6 +427,20 @@ h2 {
     width: 60%;
 }
 
+.telaExcluirPublicacao {
+    margin: auto;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    background: #fce4e4;
+}
+
+.botoesTelaExcluirPublicacao {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
 .telaExcluirPortfolio {
     margin: auto;
     padding: 15px;
