@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const cpfInput = document.querySelector("#cpf");
         const emailInput = document.querySelector("#email");
         const senhaInput = document.querySelector("#senha");
-        const contratarCheckbox = document.querySelector("#radioContratar");
+        const contratarCheckbox = document.querySelector("#checkboxContratar");
         const serContratadoCheckbox =
-            document.querySelector("#radioContratado");
+            document.querySelector("#checkboxContratado");
 
         const nome = nomeInput.value.trim();
         const cpf = cpfInput.value.trim();
