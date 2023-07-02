@@ -1,7 +1,10 @@
-var mPublicacoes = document.querySelector(".mPublicacoes");
+var mPublicacoes= document.querySelector(".mPublicacoes")
 
 const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
-const nomeUsuario = usuarioLogado.nome;
+const nome = usuarioLogado.nome;
+const email = usuarioLogado.email;
+const serContratado = usuarioLogado.serContratado;
+const contratar = usuarioLogado.contratar;
 
 document.addEventListener("DOMContentLoaded", function () {
   const pictureImage = document.querySelector(".picture_image");

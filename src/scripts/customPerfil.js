@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const nome = document.getElementById("nome").value;
         const email = document.getElementById("email").value;
         const sobreVoce = document.getElementById("sobreVoce").value;
-
+        const storedImage = localStorage.getItem("profileImage").value;
         // Obtém os dados do usuário armazenados no localStorage
         const usuarios = JSON.parse(localStorage.getItem("cadastros")) || [];
 
@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             usuario.nome = nome;
             usuario.email = email;
             usuario.sobreVoce = sobreVoce;
+            usuario.profileImage = profileImage;
 
             // Atualiza os dados do usuário no localStorage
             localStorage.setItem("cadastros", JSON.stringify(usuarios));
@@ -51,31 +52,56 @@ document.addEventListener("DOMContentLoaded", function () {
     preencherCampos(usuarioLogado);
 });
 
-const inputFile = document.querySelector("#picture__input");
-const pictureImage = document.querySelector(".picture__image");
-const pictureImageTxt = "Foto de Perfil";
-pictureImage.innerHTML = pictureImageTxt;
+document.addEventListener("DOMContentLoaded", function () {
+    const inputFile = document.getElementById("picture_input");
+    const pictureImage = document.querySelector(".picture_image");
+    const saveButton = document.getElementById("save_button");
 
-inputFile.addEventListener("change", function (e) {
-    const inputTarget = e.target;
-    const file = inputTarget.files[0];
+    // Verifica se há uma imagem salva no Local Storage
+    const storedImage = localStorage.getItem("profileImage");
 
-    if (file) {
+    if (storedImage) {
+      const img = document.createElement("img");
+      img.src = storedImage;
+      img.classList.add("picture_img");
+
+      pictureImage.innerHTML = "";
+      pictureImage.appendChild(img);
+    }
+
+    inputFile.addEventListener("change", function (e) {
+      const inputTarget = e.target;
+      const file = inputTarget.files[0];
+
+      if (file) {
         const reader = new FileReader();
 
         reader.addEventListener("load", function (e) {
-            const readerTarget = e.target;
+          const readerTarget = e.target;
 
-            const img = document.createElement("img");
-            img.src = readerTarget.result;
-            img.classList.add("picture__img");
+          const img = document.createElement("img");
+          img.src = readerTarget.result;
+          img.classList.add("picture_img");
 
-            pictureImage.innerHTML = "";
-            pictureImage.appendChild(img);
+          pictureImage.innerHTML = "";
+          pictureImage.appendChild(img);
+
+          // Salva a imagem no Local Storage
+          localStorage.setItem("profileImage", readerTarget.result);
         });
 
         reader.readAsDataURL(file);
-    } else {
-        pictureImage.innerHTML = pictureImageTxt;
-    }
-});
+      }
+    });
+
+    saveButton.addEventListener("click", function () {
+      // Recupera a imagem salva no Local Storage
+      const storedImage = localStorage.getItem("profileImage");
+
+      if (storedImage) {
+        alert("Imagem: " + storedImage);
+      } else {
+        alert("Nenhuma imagem salva.");
+      }
+    });
+  });

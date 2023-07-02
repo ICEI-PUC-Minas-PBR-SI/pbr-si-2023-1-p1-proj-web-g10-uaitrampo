@@ -508,7 +508,7 @@ h2 {
     width: 900px;
     margin-bottom: 10px;
 }
-#picture__input {
+#picture_input {
     display: none;
 }
 
@@ -530,6 +530,40 @@ h2 {
     margin: 0 auto;
 }
 
-.picture__img {
-    max-width: 100%;
+.picture_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .picture_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+
+.fotoPerfil img {
+    margin-right: 0;
+    margin-bottom: 10px;
+ width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.fotoPerfil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }

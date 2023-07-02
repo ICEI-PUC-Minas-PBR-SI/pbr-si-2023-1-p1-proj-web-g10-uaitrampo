@@ -158,55 +158,73 @@
 
             <main class="w-100 h-100 d-flex justify-content-center">
                 <div class="mPublicacoes">
+                    <div class="picture_image"></div>
+
                     <button
-                    type="button"
-                    class="btn btn-danger"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                >
-                    <i class="bi bi-trash"></i>
-                </button>
-
-                <div
-                    class="modal fade"
-                    id="exampleModal"
-                    tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                >
-                    <div class="modal-dialog">
-                        <div
-                            class="modal-content"
-                            style="width: 80%; border-radius: 20px"
-                        >
-                            <div class="conteudo">
-                                <div class="telaExcluirPublicacao">
-                                    <h2>
-                                        <b>
-                                            Deseja mesmo excluir sua
-                                            publicação?
-                                        </b>
-                                    </h2>
-                                    <h3>Essa ação não tem volta.</h3>
-
-                                    <div
-                                        class="botoesTelaExcluirPublicacao"
-                                    >
-                                        <button
-                                            type="button"
-                                            data-bs-dismiss="modal"
-                                            class="btn btn-outline-secondary"
-                                        >
-                                            Voltar
-                                        </button>
-                                        <button
-                                            type="button"
-                                            class="btn btn-outline-danger"
-                                        >
-                                            Excluir
-                                        </button>
+                        type="button"
+                        class="btn btn-danger float-start"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                    >
+                        <i class="bi bi-trash"></i>
+                    </button>
+                
+                    <div
+                        class="modal fade"
+                        id="exampleModal"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                    >
+                        <div class="modal-dialog">
+                            <div
+                                class="modal-content"
+                                style="width: 80%; border-radius: 20px"
+                            >
+                                <div class="conteudo">
+                                    <div class="telaExcluirPublicacao">
+                                        <h2>
+                                            <b>
+                                                Deseja mesmo excluir sua publicação?
+                                            </b>
+                                        </h2>
+                                        <h3>Essa ação não tem volta.</h3>
+                
+                                        <div class="botoesTelaExcluirPublicacao">
+                                            <button
+                                                type="button"
+                                                data-bs-dismiss="modal"
+                                                class="btn btn-outline-secondary"
+                                            >
+                                                Voltar
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-outline-danger"
+                                                id="excluirBtn"
+                                                data-bs-dismiss="modal"
+                                            >
+                                                Excluir
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
+                        </div>
+                    </div>
+                </div>
+                
+                <script>
+                    document.getElementById("excluirBtn").addEventListener("click", function() {
+                        var mPublicacoes = document.querySelector(".mPublicacoes");
+                        mPublicacoes.style.display = "none";
+                
+                        // Se você deseja remover permanentemente a publicação do local storage, você pode adicionar o seguinte código:
+                        localStorage.removeItem("publicacoes");
+                    });
+                </script>
+                
+                
         </main>
 
 
