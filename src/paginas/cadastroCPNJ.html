@@ -33,15 +33,14 @@
       <h1>Cadastre-se</h1>
       <h3> Você possui CNPJ?</h3>
       <P> Atenção: não será possivel alterar esse campo depois</P>
-
-      <div class="checkout">
-        <label>
-          <input type="radio" name="opcao" value="sim" required> Sim
-        </label>
-        <label>
-          <input type="radio" name="opcao" value="nao"> Não
-        </label>
-      </div>
+<div class="checkout">
+  <label>
+    <input type="radio" name="opcao" value="sim" required> Sim
+  </label>
+  <label>
+    <input type="radio" name="opcao" value="nao"> Não
+  </label>
+</div>
 
     </div>
 
@@ -97,38 +96,55 @@
 
     <script>
       function TestaCNPJ() {
-        var strCPF= document.getElementById ('placeholder-txt').value;
-    var Soma;
-    var Resto;
-    var result = true;
-    Soma = 0;
-  if (strCPF == "00000000000") result= false;
-
-  for (i=1; i<=9; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (11 - i);
-  Resto = (Soma * 10) % 11;
-
-    if ((Resto == 10) || (Resto == 11))  { Resto = 0; result=  true;}
-    if (Resto != parseInt(strCPF.substring(9, 10)) ) result=  false;
-
-  Soma = 0;
-    for (i = 1; i <= 10; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (12 - i);
-    Resto = (Soma * 10) % 11;
- 
-
-    if ((Resto == 10) || (Resto == 11))  {Resto = 0; ; result=  true;}
-    if (Resto != parseInt(strCPF.substring(10, 11) ) ) result=  false;
+        var cnpj = document.getElementById('placeholder-txt').value.replace(/[^\d]+/g, ''); // Remove caracteres não numéricos
+        if (cnpj.length !== 14) {
+          alert('Digite um CNPJ válido');
+          return false;
+        }
     
-    if ( result != true){
-        
-            alert('digite um cnpj válido')
-          }
+        // Verifica se todos os dígitos são iguais
+        if (/^(\d)\1+$/.test(cnpj)) {
+          alert('Digite um CNPJ válido');
+          return false;
+        }
+    
+        // Calcula o primeiro dígito verificador
+        var soma = 0;
+        var peso = 2;
+        for (var i = 11; i >= 0; i--) {
+          soma += parseInt(cnpj.charAt(i)) * peso;
+          peso = peso === 9 ? 2 : peso + 1;
+        }
+        var digitoVerificador1 = (soma % 11) < 2 ? 0 : 11 - (soma % 11);
+    
+        if (parseInt(cnpj.charAt(12)) !== digitoVerificador1) {
+          alert('Digite um CNPJ válido');
+          return false;
+        }
+    
+        // Calcula o segundo dígito verificador
+        soma = 0;
+        peso = 2;
+        for (var j = 12; j >= 0; j--) {
+          soma += parseInt(cnpj.charAt(j)) * peso;
+          peso = peso === 9 ? 2 : peso + 1;
+        }
+        var digitoVerificador2 = (soma % 11) < 2 ? 0 : 11 - (soma % 11);
+    
+        if (parseInt(cnpj.charAt(13)) !== digitoVerificador2) {
+          alert('Digite um CNPJ válido');
+          return false;
+        }
+        else 
+        alert('Cadastro realizado com sucesso! Agora, faça o login!');
+    
+        return true;
+      }
+    </script>
 
-      }    
-
-  
 
 
-
+      
 
         
       </script>
