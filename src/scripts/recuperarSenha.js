@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       if (verificarCodigoRecuperacao(codigoArmazenado, codigoDigitado)) {
         alert("Código válido! Acesso autorizado.");
-        abrirModalTudoCerto(); 
+        window.location.href = "../paginas/novaSenha.html";
       } else {
         alert("Código inválido! Acesso negado.");
       }
@@ -46,9 +46,4 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     }
   
-    function abrirModalTudoCerto() {
-      const modal = document.getElementById("modalDaTelaTudoCerto");
-      const modalInstance = new bootstrap.Modal(modal);
-      modalInstance.show();
-    }
   });
