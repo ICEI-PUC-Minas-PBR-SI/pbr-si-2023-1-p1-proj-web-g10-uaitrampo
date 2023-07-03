@@ -35,7 +35,9 @@ Gabriel Santiago
 - Criação dos planos de teste paras funcionalidades desenvolvidas por mim
 - Correção das validações dos campos de cpf e email feito pela Mariana Dias 
 - Deploy da aplicação
-- Comentário sobre o trabalho: Tudo ficou muito em cima da hora, acabou que algumas das funcionalidades que estavam previstas não foram implementadas. Tentei ao máximo fazer o trabalho, cobrando para fazer, mas acabou que mesmo tomando a frente muitas vezes, não foi o suficiente. Tentei ao máximo organizar o código, fiz os merges, identei o código e organizei os arquivos tentando manter um padrão. Faltou bastante boa vontade de alguns integrantes do grupo. Muitas vezes eu falei sozinho no grupo do WhatsApp. 
+- Comentário sobre o trabalho: Tudo ficou muito em cima da hora, acabou que algumas das funcionalidades que estavam previstas não foram implementadas. Tentei ao máximo fazer o trabalho, cobrando para fazer, mas acabou que mesmo tomando a frente muitas vezes, não foi o suficiente. Tentei ao máximo organizar o código, fiz os merges, identei o código e organizei os arquivos tentando manter um padrão. Faltou bastante boa vontade de alguns integrantes do grupo. Muitas vezes eu falei sozinho no grupo do WhatsApp.
+- Correção da tela de Perfil
+- Correção da tela de Editar Perfil
 
 Lucas Felipe
 - Criação das personas 
